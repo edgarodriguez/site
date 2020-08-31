@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Done and work in progress"
 
 [content]
   # Page type to display. E.g. project.
@@ -26,13 +26,21 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Societal Metabolism"
+    tag = "Societal Metabolism"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
-
+    name = "Ecosystem Services"
+    tag = "Ecosystem Services"
+    
+  [[content.filter_button]]
+    name = "SDGs"
+    tag = "SDGs"
+  
+  [[content.filter_button]]
+    name = "COVID-19"
+    tag = "COVID-19"  
+    
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

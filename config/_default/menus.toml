@@ -12,10 +12,10 @@
   url = "#projects"
   weight = 30
   
-[[main]]
-  name = "Work in progress"
-  url = "#work-in-progress"
-  weight = 30
+# [[main]]
+#  name = "Work in progress"
+#  url = "#work-in-progress"
+#  weight = 30
   
 [[main]]
   name = "Publications"
