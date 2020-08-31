@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | [ Sustainability &#43; Data ] · Science</title>
+    <link>/site/publication_types/</link>
+      <atom:link href="/site/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/site/media/logo-edgarodriguez.png</url>
+      <title>Publication_types</title>
+      <link>/site/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>
