@@ -219,6 +219,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176912932-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-176912932-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -982,9 +1020,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/site/post/writing-technical-content/">Writing technical content in Academic</a></li>
-      
       <li><a href="/site/post/sdgs-trade-offs/">Writing technical content in Academic</a></li>
+      
+      <li><a href="/site/post/writing-technical-content/">Writing technical content in Academic</a></li>
       
       <li><a href="/site/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
       

@@ -88,7 +88,22 @@
   </url>
   
   <url>
+    <loc>/site/tag/nexus-wefl/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/nexus-wefl/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/site/post/synecology/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/what-a-crop/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,11 +259,6 @@
   
   <url>
     <loc>/site/tag/energy-transition/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tag/nexus-wefl/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   

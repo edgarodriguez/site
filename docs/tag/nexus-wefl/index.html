@@ -219,6 +219,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176912932-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-176912932-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -256,7 +294,7 @@
   <meta property="og:description" content="Research about Sustainability Science. Data Science and Systemic Thinking for building resilience to Climate Change."><meta property="og:image" content="/site/media/logo-edgarodriguez.png">
   <meta property="twitter:image" content="/site/media/logo-edgarodriguez.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2017-09-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-08-22T00:00:00&#43;00:00">
   
 
   
@@ -551,6 +589,20 @@
   
 
   
+  
+    
+    
+    
+    <div>
+      <h2><a href="/site/post/what-a-crop/" >What a Crop?</a></h2>
+      <div class="article-style">
+        
+          Example of Synecology perspective within ecosystem services
+Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.
+On this page, you&rsquo;ll find some examples of the types of technical content that can be rendered with Academic.
+        
+      </div>
+    </div>
   
     
     
