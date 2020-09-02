@@ -33,17 +33,67 @@
   </url>
   
   <url>
-    <loc>/site/categories/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
+    <loc>/site/authors/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/logistics/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
+    <loc>/site/categories/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/coursera-leaflet/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/author/edgar-rodriguez-huerta/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
     <loc>/site/post/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/r/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/r/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/spatial-analysis/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/spatial-analysis/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tags/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/yucatan-peninsula/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/coursera-leaflet/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/logistics/</loc>
     <lastmod>2020-08-31T00:29:08-05:00</lastmod>
   </url>
   
@@ -55,16 +105,6 @@
   <url>
     <loc>/site/post/sbsc/</loc>
     <lastmod>2020-08-31T00:29:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tags/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/authors/</loc>
-    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -80,11 +120,6 @@
   <url>
     <loc>/site/category/ecosystem-services/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/author/edgar-rodriguez-huerta/</loc>
-    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -154,16 +189,6 @@
   
   <url>
     <loc>/site/publication/</loc>
-    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tag/spatial-analysis/</loc>
-    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tag/yucatan-peninsula/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -319,11 +344,6 @@
   
   <url>
     <loc>/site/tag/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/category/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   

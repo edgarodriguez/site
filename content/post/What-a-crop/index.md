@@ -19,11 +19,13 @@ projects: []
 tags:
 - Nexus WEFL
 
+url_poster: "https://public.tableau.com/profile/edgar.rodriguez.huerta#!/vizhome/WhatCrop_EDIBLE_v01_190509/What-a-Crop"
 
 math: true
 title: What a Crop?
 subtitle: 'Indicators to understand the nexus between water and food'
-summary: 
+summary: 'Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.'
+
 ---
 
 Example of Synecology perspective within ecosystem services

@@ -1,0 +1,108 @@
+---
+title: 'Creating maps with Leaflet Package con Rmd'
+author: admin
+date: '2020-09-02'
+slug: Coursera-Leaflet
+categories:
+  - R
+  - Spatial Analysis
+tags: [R,Spatial Analysis, Yucatan Peninsula]
+subtitle: 'Part of Course: Developing Data Products (Coursera - Johns Hopkins)'
+summary: 'This is a exercise for Coursera and Johns Hopkins Specialization in Data Science'
+authors: [admin]
+lastmod: '2020-09-01T16:00:13-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/site/rmarkdown-libs/pymjs/pym.v1.js"></script>
+<script src="/site/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
+
+
+<p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for render the map correctly.</p>
+<p>This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
+<em>Coordinates are not validated</em>
+### First step: Download and data cleaning</p>
+<pre class="r"><code>library(leaflet)
+library(widgetframe)</code></pre>
+<pre><code>## Loading required package: htmlwidgets</code></pre>
+<pre class="r"><code>library(htmlwidgets)
+library(htmltools)
+library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>url &lt;-&quot;http://201.116.60.46/DatosAbiertos/Otorgamiento_de_Concesiones.zip&quot;
+
+temp &lt;- tempfile()
+temp2 &lt;- tempfile()
+download.file(url, temp, mode=&quot;wb&quot;)
+unzip(zipfile = temp, exdir = temp2)
+data &lt;- read.csv(file = paste0(temp2,&quot;\\CONCESIONES&quot;,&quot;\\ANEXOS_SUBTERRANEOS.csv&quot;,sep=&quot;&quot;),encoding = &quot;UTF-8&quot;)
+data1 &lt;- read.csv(file = paste0(temp2,&quot;\\CONCESIONES&quot;,&quot;\\CONCESIONES.csv&quot;,sep=&quot;&quot;),encoding = &quot;UTF-8&quot;)
+data$lat=data$GRADOS.LATITUD+((1/60)*data$MINUTOS.LATITUD)+((1/3600)*data$SEGUNDOS.LATITUD)
+data$lng=((data$GRADOS.LONGITUD)+((1/60)*data$MINUTOS.LONGITUD)+((1/3600)*data$SEGUNDOS.LONGITUD))*-1
+data_all &lt;- merge(x = data,y= data1, by = &quot;X.U.FEFF.TITULO&quot;, all.x = TRUE)
+
+df &lt;- filter(data_all, NOMBRE.DE.ESTADO %in% c(&quot;CAMPECHE&quot;,&quot;QUINTANA ROO&quot;,&quot;YUCATAN&quot;),lat&gt;=17.5,lat&lt;=22,lng&lt;=-87,lng&gt;=-92) #filter by State and coordinates
+
+df &lt;- data.frame(lat=c(df$lat),lng=c(df$lng),uso=c(df$USO.QUE.AMPARA.EL.TITULO),vol=df$VOLUMEN.ANUAL.EN.m3)
+unlink(c(temp, temp2))
+
+pal &lt;- colorFactor(c(&quot;cyan3&quot;,&quot;darkgreen&quot;,&quot;sienna&quot;,&quot;grey77&quot;,&quot;dodgerblue4&quot;,
+                     &quot;red4&quot;,&quot;tan4&quot;,&quot;darkslategrey&quot;,&quot;gold3&quot;),df$uso) #Set colors</code></pre>
+<div id="generate-the-map-with-leaflet-package" class="section level3">
+<h3>Generate the map with Leaflet package</h3>
+<p><strong>Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume</strong></p>
+<pre class="r"><code>my_map &lt;- leaflet() %&gt;%
+    addTiles() %&gt;% # It generate the main layer
+    addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,&quot;m3/year&quot;),clusterOptions = markerClusterOptions()) %&gt;% # Define marks
+    addCircles(lng=df$lng, lat=df$lat,weight = 1, radius = sqrt(df$vol) * 2, color=pal(df$uso)) %&gt;%
+    addLegend(pal = pal,values = df$uso)%&gt;%
+    frameWidget()
+
+my_map %&gt;%
+    frameWidget()</code></pre>
+<pre><code>## Warning in frameWidget(.): Re-framing an already framed widget with new params</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<pre class="r"><code>my_map</code></pre>
+<p><div id="htmlwidget-2" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+Now, we use <code>htmlwidgets</code> to save the html file</p>
+<pre class="r"><code>currentWD &lt;- getwd()
+dir.create(&quot;static/leaflet&quot;,showWarnings = FALSE)
+#setwd(&quot;static/leaflet&quot;)
+htmlwidgets::saveWidget(my_map, file =&quot;my_map.html&quot;,selfcontained=TRUE)
+#setwd(currentWD)</code></pre>
+<p>oa
+<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map.html" width="100%" height="500"></iframe>
+ob
+<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map/index.html" width="100%" height="500"></iframe>
+oc
+<iframe seamless src="/static/leaflet/my_map.html" width="100%" height="500"></iframe>
+od
+<iframe seamless src="/static/leaflet/my_map/index.html" width="100%" height="500"></iframe></p>
+<p>opcion 2</p>
+<pre class="r"><code>widgetframe::frameWidget(my_map,width=&#39;90%&#39;)</code></pre>
+<pre><code>## Warning in widgetframe::frameWidget(my_map, width = &quot;90%&quot;): Re-framing an
+## already framed widget with new params</code></pre>
+<div id="htmlwidget-3" style="width:90%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p>opcion 3</p>
+<pre class="r"><code>frameWidget(my_map,width=&#39;90%&#39;)</code></pre>
+<pre><code>## Warning in frameWidget(my_map, width = &quot;90%&quot;): Re-framing an already framed
+## widget with new params</code></pre>
+<div id="htmlwidget-4" style="width:90%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-5.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+</div>
