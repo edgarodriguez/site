@@ -1,12 +1,13 @@
 ---
-title: 'Creating maps with Leaflet Package con Rmd'
+title: 'Creating maps with Leaflet Package and Rmd'
 author: admin
 date: '2020-09-02'
 slug: Coursera-Leaflet
 categories:
   - R
   - Spatial Analysis
-tags: [R,Spatial Analysis, Yucatan Peninsula]
+  - Data visualization
+tags: [R,Spatial Analysis, Yucatan Peninsula,Data visualization]
 subtitle: 'Part of Course: Developing Data Products (Coursera - Johns Hopkins)'
 summary: 'This is a exercise for Coursera and Johns Hopkins Specialization in Data Science'
 authors: [admin]
@@ -18,10 +19,12 @@ image:
   preview_only: no
 projects: []
 ---
-In this example, we created with `Leaflet` package. Also, I used `dplyr` for cleaning the data and `widgetframe` for render the map correctly.
+In this example, we created with `Leaflet` package. Also, I used `dplyr` for cleaning the data and `widgetframe` for render in `blogdown` correctly.
 
 This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
 *Coordinates are not validated*
+
+
 ### First step: Download and data cleaning
 
 ```{r echo=TRUE, warning=FALSE}
@@ -51,8 +54,8 @@ pal <- colorFactor(c("cyan3","darkgreen","sienna","grey77","dodgerblue4",
                      "red4","tan4","darkslategrey","gold3"),df$uso) #Set colors
 ```
 
-### Generate the map with Leaflet package
-**Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume**
+### Second step: Generate the map with Leaflet package
+**Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume (a lot!, right?)**
 
 ```{r echo=TRUE}
 my_map <- leaflet() %>%
@@ -65,34 +68,7 @@ my_map <- leaflet() %>%
 my_map %>%
     frameWidget()
 
-my_map
-```
-Now, we use `htmlwidgets` to save the html file
-
-```{r echo=TRUE}
-currentWD <- getwd()
-dir.create("static/leaflet",showWarnings = FALSE)
-#setwd("static/leaflet")
-htmlwidgets::saveWidget(my_map, file ="my_map.html",selfcontained=TRUE)
-#setwd(currentWD)
-
-```
-oa
-<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map.html" width="100%" height="500"></iframe>
-ob
-<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map/index.html" width="100%" height="500"></iframe>
-oc
-<iframe seamless src="/static/leaflet/my_map.html" width="100%" height="500"></iframe>
-od
-<iframe seamless src="/static/leaflet/my_map/index.html" width="100%" height="500"></iframe>
-
-opcion 2
-```{r echo=TRUE}
-widgetframe::frameWidget(my_map,width='90%')
 ```
 
-opcion 3
-```{r echo=TRUE}
-frameWidget(my_map,width='90%')
-```
+**and... Why water allocation in the middle of the ocean? well... Some coordanates are wrong**
 

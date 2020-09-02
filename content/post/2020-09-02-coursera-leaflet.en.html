@@ -1,12 +1,13 @@
 ---
-title: 'Creating maps with Leaflet Package con Rmd'
+title: 'Creating maps with Leaflet Package and Rmd'
 author: admin
 date: '2020-09-02'
 slug: Coursera-Leaflet
 categories:
   - R
   - Spatial Analysis
-tags: [R,Spatial Analysis, Yucatan Peninsula]
+  - Data visualization
+tags: [R,Spatial Analysis, Yucatan Peninsula,Data visualization]
 subtitle: 'Part of Course: Developing Data Products (Coursera - Johns Hopkins)'
 summary: 'This is a exercise for Coursera and Johns Hopkins Specialization in Data Science'
 authors: [admin]
@@ -24,10 +25,11 @@ projects: []
 <script src="/site/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
 
 
-<p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for render the map correctly.</p>
+<p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for render in <code>blogdown</code> correctly.</p>
 <p>This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
-<em>Coordinates are not validated</em>
-### First step: Download and data cleaning</p>
+<em>Coordinates are not validated</em></p>
+<div id="first-step-download-and-data-cleaning" class="section level3">
+<h3>First step: Download and data cleaning</h3>
 <pre class="r"><code>library(leaflet)
 library(widgetframe)</code></pre>
 <pre><code>## Loading required package: htmlwidgets</code></pre>
@@ -61,9 +63,10 @@ unlink(c(temp, temp2))
 
 pal &lt;- colorFactor(c(&quot;cyan3&quot;,&quot;darkgreen&quot;,&quot;sienna&quot;,&quot;grey77&quot;,&quot;dodgerblue4&quot;,
                      &quot;red4&quot;,&quot;tan4&quot;,&quot;darkslategrey&quot;,&quot;gold3&quot;),df$uso) #Set colors</code></pre>
-<div id="generate-the-map-with-leaflet-package" class="section level3">
-<h3>Generate the map with Leaflet package</h3>
-<p><strong>Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume</strong></p>
+</div>
+<div id="second-step-generate-the-map-with-leaflet-package" class="section level3">
+<h3>Second step: Generate the map with Leaflet package</h3>
+<p><strong>Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume (a lot!, right?)</strong></p>
 <pre class="r"><code>my_map &lt;- leaflet() %&gt;%
     addTiles() %&gt;% # It generate the main layer
     addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,&quot;m3/year&quot;),clusterOptions = markerClusterOptions()) %&gt;% # Define marks
@@ -76,33 +79,5 @@ my_map %&gt;%
 <pre><code>## Warning in frameWidget(.): Re-framing an already framed widget with new params</code></pre>
 <div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
-<pre class="r"><code>my_map</code></pre>
-<p><div id="htmlwidget-2" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
-Now, we use <code>htmlwidgets</code> to save the html file</p>
-<pre class="r"><code>currentWD &lt;- getwd()
-dir.create(&quot;static/leaflet&quot;,showWarnings = FALSE)
-#setwd(&quot;static/leaflet&quot;)
-htmlwidgets::saveWidget(my_map, file =&quot;my_map.html&quot;,selfcontained=TRUE)
-#setwd(currentWD)</code></pre>
-<p>oa
-<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map.html" width="100%" height="500"></iframe>
-ob
-<iframe seamless src="/static/post/2020-09-01-coursera-leaflet.en_files/my_map/index.html" width="100%" height="500"></iframe>
-oc
-<iframe seamless src="/static/leaflet/my_map.html" width="100%" height="500"></iframe>
-od
-<iframe seamless src="/static/leaflet/my_map/index.html" width="100%" height="500"></iframe></p>
-<p>opcion 2</p>
-<pre class="r"><code>widgetframe::frameWidget(my_map,width=&#39;90%&#39;)</code></pre>
-<pre><code>## Warning in widgetframe::frameWidget(my_map, width = &quot;90%&quot;): Re-framing an
-## already framed widget with new params</code></pre>
-<div id="htmlwidget-3" style="width:90%;height:480px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-4.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
-<p>opcion 3</p>
-<pre class="r"><code>frameWidget(my_map,width=&#39;90%&#39;)</code></pre>
-<pre><code>## Warning in frameWidget(my_map, width = &quot;90%&quot;): Re-framing an already framed
-## widget with new params</code></pre>
-<div id="htmlwidget-4" style="width:90%;height:480px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-5.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p><strong>and… Why water allocation in the middle of the ocean? well… Some coordanates are wrong</strong></p>
 </div>
