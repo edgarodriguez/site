@@ -1,0 +1,70 @@
+---
+title: 'Creating plots with Plotly Package and Rmd'
+author: admin
+date: '2020-09-02'
+slug: Coursera-Plotly
+categories:
+  - R
+  - Spatial Analysis
+  - Data visualization
+tags: [R,Spatial Analysis, Yucatan Peninsula,Data visualization]
+subtitle: 'Part of Course: Developing Data Products (Coursera - Johns Hopkins)'
+summary: 'This is a exercise for Coursera and Johns Hopkins Specialization in Data Science'
+authors: [admin]
+lastmod: '2020-09-01T16:00:13-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+In this example, we created with `Plotly` package. Also, I used `dplyr` for cleaning the data and `widgetframe` for rendering in `blogdown` correctly.
+
+This plot shows historical water allocations for **AGRICULTURE** according to REPDA by CONAGUA in Yucatán Península, México.
+
+
+### First step: Download and data cleaning
+
+```{r echo=TRUE, warning=FALSE}
+library(plotly)
+library(dplyr)
+library(widgetframe)
+url <-"http://201.116.60.46/DatosAbiertos/Otorgamiento_de_Concesiones.zip"
+
+temp <- tempfile()
+temp2 <- tempfile()
+download.file(url, temp, mode="wb")
+unzip(zipfile = temp, exdir = temp2)
+data <- read.csv(file = paste0(temp2,"\\CONCESIONES","\\ANEXOS_SUBTERRANEOS.csv",sep=""),encoding = "UTF-8")
+data1 <- read.csv(file = paste0(temp2,"\\CONCESIONES","\\CONCESIONES.csv",sep=""),encoding = "UTF-8")
+data_all <- merge(x = data,y= data1, by = "X.U.FEFF.TITULO", all.x = TRUE)
+unlink(c(temp, temp2))
+#head(data_all)
+df <- filter(data_all, NOMBRE.DE.ESTADO %in% c("CAMPECHE","QUINTANA ROO","YUCATAN"),USO.QUE.AMPARA.EL.TITULO %in% c("AGRICOLA")) #filter by State and coordinates
+df <- data.frame(uso=c(df$USO.QUE.AMPARA.EL.TITULO),vol=df$VOLUMEN.ANUAL.EN.m3,date=df$FECHA.DE.REGISTRO)
+
+```
+
+### Second step: Generate plot with ploty
+**volume is in m3**
+
+```{r echo=TRUE}
+df2 <- df %>%
+    group_by(date,uso) %>%
+    summarize(volume_m3=sum(vol))
+
+my_plot <- plot_ly(df2, x = ~date, y =~volume_m3, type = "scatter",mode='lines+markers')
+
+my_plot <- my_plot %>%
+    layout(title = "Time Series water concession in Yucatan Peninsula",
+           xaxis = list(type = 'date',tickformat = "%B %Y")
+
+        )
+
+my_plot
+
+
+```
+
+

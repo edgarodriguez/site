@@ -20,9 +20,6 @@ image:
 projects: []
 ---
 
-<script src="/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
-<script src="/site/rmarkdown-libs/pymjs/pym.v1.js"></script>
-<script src="/site/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
 
 
 <p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for render in <code>blogdown</code> correctly.</p>
@@ -72,12 +69,6 @@ pal &lt;- colorFactor(c(&quot;cyan3&quot;,&quot;darkgreen&quot;,&quot;sienna&quo
     addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,&quot;m3/year&quot;),clusterOptions = markerClusterOptions()) %&gt;% # Define marks
     addCircles(lng=df$lng, lat=df$lat,weight = 1, radius = sqrt(df$vol) * 2, color=pal(df$uso)) %&gt;%
     addLegend(pal = pal,values = df$uso)%&gt;%
-    frameWidget()
-
-my_map %&gt;%
     frameWidget()</code></pre>
-<pre><code>## Warning in frameWidget(.): Re-framing an already framed widget with new params</code></pre>
-<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 <p><strong>and… Why water allocation in the middle of the ocean? well… Some coordanates are wrong</strong></p>
 </div>
