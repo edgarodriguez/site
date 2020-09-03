@@ -4,9 +4,8 @@ author: admin
 date: '2020-09-02'
 slug: Coursera-Leaflet
 categories:
-  - R
-  - Spatial Analysis
-  - Data visualization
+  - Data Science
+
 tags: [R,Spatial Analysis, Yucatan Peninsula,Data visualization]
 subtitle: 'Part of Course: Developing Data Products (Coursera - Johns Hopkins)'
 summary: 'This is a exercise for Coursera and Johns Hopkins Specialization in Data Science'
@@ -19,7 +18,7 @@ image:
   preview_only: no
 projects: []
 ---
-In this example, we created with `Leaflet` package. Also, I used `dplyr` for cleaning the data and `widgetframe` for render in `blogdown` correctly.
+In this example, we created with `Leaflet` package. Also, I used `dplyr` for cleaning the data and `widgetframe` for rendering in `blogdown` correctly.
 
 This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
 *Coordinates are not validated*
@@ -27,7 +26,7 @@ This map shows water allocations according to REPDA by CONAGUA in Yucatán Pení
 
 ### First step: Download and data cleaning
 
-```{r echo=TRUE, warning=FALSE}
+```{r echo=TRUE, warning=FALSE, message=FALSE}
 library(leaflet)
 library(widgetframe)
 library(htmlwidgets)
@@ -57,16 +56,17 @@ pal <- colorFactor(c("cyan3","darkgreen","sienna","grey77","dodgerblue4",
 ### Second step: Generate the map with Leaflet package
 **Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume (a lot!, right?)**
 
-```{r echo=TRUE}
+```{r echo=TRUE, message=FALSE}
 my_map <- leaflet() %>%
     addTiles() %>% # It generate the main layer
     addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,"m3/year"),clusterOptions = markerClusterOptions()) %>% # Define marks
     addCircles(lng=df$lng, lat=df$lat,weight = 1, radius = sqrt(df$vol) * 2, color=pal(df$uso)) %>%
     addLegend(pal = pal,values = df$uso)%>%
     frameWidget()
-
+my_map %>%
+  frameWidget()
 
 ```
 
-**and... Why water allocation in the middle of the ocean? well... Some coordanates are wrong**
+**and... Why water allocation in the middle of the ocean? well... Some coordanates are wrong.**
 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science | [ Sustainability &#43; Data ] · Science</title>
+    <link>/site/category/data-science/</link>
+      <atom:link href="/site/category/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/site/media/logo-edgarodriguez.png</url>
+      <title>Data Science</title>
+      <link>/site/category/data-science/</link>
+    </image>
+    
+    <item>
+      <title>Creating maps with Leaflet Package and Rmd</title>
+      <link>/site/post/coursera-leaflet/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/site/post/coursera-leaflet/</guid>
+      <description>
+&lt;script src=&#34;/site/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In this example, we created with &lt;code&gt;Leaflet&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
+&lt;p&gt;This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
+&lt;em&gt;Coordinates are not validated&lt;/em&gt;&lt;/p&gt;
+&lt;div id=&#34;first-step-download-and-data-cleaning&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;First step: Download and data cleaning&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(leaflet)
+library(widgetframe)
+library(htmlwidgets)
+library(htmltools)
+library(dplyr)
+url &amp;lt;-&amp;quot;http://201.116.60.46/DatosAbiertos/Otorgamiento_de_Concesiones.zip&amp;quot;
+
+temp &amp;lt;- tempfile()
+temp2 &amp;lt;- tempfile()
+download.file(url, temp, mode=&amp;quot;wb&amp;quot;)
+unzip(zipfile = temp, exdir = temp2)
+data &amp;lt;- read.csv(file = paste0(temp2,&amp;quot;\\CONCESIONES&amp;quot;,&amp;quot;\\ANEXOS_SUBTERRANEOS.csv&amp;quot;,sep=&amp;quot;&amp;quot;),encoding = &amp;quot;UTF-8&amp;quot;)
+data1 &amp;lt;- read.csv(file = paste0(temp2,&amp;quot;\\CONCESIONES&amp;quot;,&amp;quot;\\CONCESIONES.csv&amp;quot;,sep=&amp;quot;&amp;quot;),encoding = &amp;quot;UTF-8&amp;quot;)
+data$lat=data$GRADOS.LATITUD+((1/60)*data$MINUTOS.LATITUD)+((1/3600)*data$SEGUNDOS.LATITUD)
+data$lng=((data$GRADOS.LONGITUD)+((1/60)*data$MINUTOS.LONGITUD)+((1/3600)*data$SEGUNDOS.LONGITUD))*-1
+data_all &amp;lt;- merge(x = data,y= data1, by = &amp;quot;X.U.FEFF.TITULO&amp;quot;, all.x = TRUE)
+
+df &amp;lt;- filter(data_all, NOMBRE.DE.ESTADO %in% c(&amp;quot;CAMPECHE&amp;quot;,&amp;quot;QUINTANA ROO&amp;quot;,&amp;quot;YUCATAN&amp;quot;),lat&amp;gt;=17.5,lat&amp;lt;=22,lng&amp;lt;=-87,lng&amp;gt;=-92) #filter by State and coordinates
+
+df &amp;lt;- data.frame(lat=c(df$lat),lng=c(df$lng),uso=c(df$USO.QUE.AMPARA.EL.TITULO),vol=df$VOLUMEN.ANUAL.EN.m3)
+unlink(c(temp, temp2))
+
+pal &amp;lt;- colorFactor(c(&amp;quot;cyan3&amp;quot;,&amp;quot;darkgreen&amp;quot;,&amp;quot;sienna&amp;quot;,&amp;quot;grey77&amp;quot;,&amp;quot;dodgerblue4&amp;quot;,
+                     &amp;quot;red4&amp;quot;,&amp;quot;tan4&amp;quot;,&amp;quot;darkslategrey&amp;quot;,&amp;quot;gold3&amp;quot;),df$uso) #Set colors&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;second-step-generate-the-map-with-leaflet-package&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Second step: Generate the map with Leaflet package&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Clusters count number of allocation in the region. Meanwhile, circles describe each concession by type and volume (a lot!, right?)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_map &amp;lt;- leaflet() %&amp;gt;%
+    addTiles() %&amp;gt;% # It generate the main layer
+    addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,&amp;quot;m3/year&amp;quot;),clusterOptions = markerClusterOptions()) %&amp;gt;% # Define marks
+    addCircles(lng=df$lng, lat=df$lat,weight = 1, radius = sqrt(df$vol) * 2, color=pal(df$uso)) %&amp;gt;%
+    addLegend(pal = pal,values = df$uso)%&amp;gt;%
+    frameWidget()
+my_map %&amp;gt;%
+  frameWidget()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in frameWidget(.): Re-framing an already framed widget with new params&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;and… Why water allocation in the middle of the ocean? well… Some coordanates are wrong.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -26,7 +26,7 @@ This plot shows historical water allocations for **AGRICULTURE** according to RE
 
 ### First step: Download and data cleaning
 
-```{r echo=TRUE, warning=FALSE}
+```{r echo=TRUE, message=FALSE}
 library(plotly)
 library(dplyr)
 library(widgetframe)
@@ -41,16 +41,16 @@ data1 <- read.csv(file = paste0(temp2,"\\CONCESIONES","\\CONCESIONES.csv",sep=""
 data_all <- merge(x = data,y= data1, by = "X.U.FEFF.TITULO", all.x = TRUE)
 unlink(c(temp, temp2))
 #head(data_all)
-df <- filter(data_all, NOMBRE.DE.ESTADO %in% c("CAMPECHE","QUINTANA ROO","YUCATAN"),USO.QUE.AMPARA.EL.TITULO %in% c("AGRICOLA")) #filter by State and coordinates
-df <- data.frame(uso=c(df$USO.QUE.AMPARA.EL.TITULO),vol=df$VOLUMEN.ANUAL.EN.m3,date=df$FECHA.DE.REGISTRO)
+df1 <- filter(data_all, NOMBRE.DE.ESTADO %in% c("CAMPECHE","QUINTANA ROO","YUCATAN"),USO.QUE.AMPARA.EL.TITULO %in% c("AGRICOLA")) #filter by State and coordinates
+df1 <- data.frame(uso=c(df1$USO.QUE.AMPARA.EL.TITULO),vol=df1$VOLUMEN.ANUAL.EN.m3,date=df1$FECHA.DE.REGISTRO)
 
 ```
 
 ### Second step: Generate plot with ploty
 **volume is in m3**
 
-```{r echo=TRUE}
-df2 <- df %>%
+```{r echo=TRUE, message=FALSE}
+df2 <- df1 %>%
     group_by(date,uso) %>%
     summarize(volume_m3=sum(vol))
 

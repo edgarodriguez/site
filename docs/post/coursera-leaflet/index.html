@@ -676,7 +676,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/site/category/r/">R</a>, <a href="/site/category/spatial-analysis/">Spatial Analysis</a>, <a href="/site/category/data-visualization/">Data visualization</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/site/category/data-science/">Data Science</a></span>
   
 
 </div>
@@ -705,28 +705,22 @@
 
     <div class="article-style">
       
+<script src="/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/site/rmarkdown-libs/pymjs/pym.v1.js"></script>
+<script src="/site/rmarkdown-libs/widgetframe-binding/widgetframe.js"></script>
 
 
-<p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for render in <code>blogdown</code> correctly.</p>
+<p>In this example, we created with <code>Leaflet</code> package. Also, I used <code>dplyr</code> for cleaning the data and <code>widgetframe</code> for rendering in <code>blogdown</code> correctly.</p>
 <p>This map shows water allocations according to REPDA by CONAGUA in Yucatán Península, México, by September 2020.
 <em>Coordinates are not validated</em></p>
 <div id="first-step-download-and-data-cleaning" class="section level3">
 <h3>First step: Download and data cleaning</h3>
 <pre class="r"><code>library(leaflet)
-library(widgetframe)</code></pre>
-<pre><code>## Loading required package: htmlwidgets</code></pre>
-<pre class="r"><code>library(htmlwidgets)
+library(widgetframe)
+library(htmlwidgets)
 library(htmltools)
-library(dplyr)</code></pre>
-<pre><code>## 
-## Attaching package: &#39;dplyr&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>url &lt;-&quot;http://201.116.60.46/DatosAbiertos/Otorgamiento_de_Concesiones.zip&quot;
+library(dplyr)
+url &lt;-&quot;http://201.116.60.46/DatosAbiertos/Otorgamiento_de_Concesiones.zip&quot;
 
 temp &lt;- tempfile()
 temp2 &lt;- tempfile()
@@ -754,8 +748,13 @@ pal &lt;- colorFactor(c(&quot;cyan3&quot;,&quot;darkgreen&quot;,&quot;sienna&quo
     addMarkers(lng=df$lng, lat=df$lat, popup = paste(df$uso,df$vol,&quot;m3/year&quot;),clusterOptions = markerClusterOptions()) %&gt;% # Define marks
     addCircles(lng=df$lng, lat=df$lat,weight = 1, radius = sqrt(df$vol) * 2, color=pal(df$uso)) %&gt;%
     addLegend(pal = pal,values = df$uso)%&gt;%
-    frameWidget()</code></pre>
-<p><strong>and… Why water allocation in the middle of the ocean? well… Some coordanates are wrong</strong></p>
+    frameWidget()
+my_map %&gt;%
+  frameWidget()</code></pre>
+<pre><code>## Warning in frameWidget(.): Re-framing an already framed widget with new params</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="widgetframe html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"url":"/site/post/2020-09-02-coursera-leaflet.en_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+<p><strong>and… Why water allocation in the middle of the ocean? well… Some coordanates are wrong.</strong></p>
 </div>
 
     </div>
@@ -1061,8 +1060,6 @@ pal &lt;- colorFactor(c(&quot;cyan3&quot;,&quot;darkgreen&quot;,&quot;sienna&quo
       <li><a href="/site/post/coursera-plotly/">Creating plots with Plotly Package and Rmd</a></li>
       
       <li><a href="/site/publication/water-balance-model/">A water balance model to estimate climate change impact on groundwater recharge in Yucatan Peninsula, Mexico</a></li>
-      
-      <li><a href="/site/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></li>
       
     </ul>
   </div>
