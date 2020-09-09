@@ -5,12 +5,25 @@
     <link>/site/post/</link>
       <atom:link href="/site/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/site/media/logo-edgarodriguez.png</url>
       <title>Posts</title>
       <link>/site/post/</link>
     </image>
+    
+    <item>
+      <title>Happy Maps</title>
+      <link>/site/post/happy-maps/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/site/post/happy-maps/</guid>
+      <description>&lt;p&gt;enjoyable routes instead of single path
+a full experience&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/AJg9SXIcPiM?start=305&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;strong&gt;Daniele Quercia. TedTalks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Wordpress &#43; Github pages</title>

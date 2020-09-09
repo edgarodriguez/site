@@ -1,5 +1,5 @@
 ---
-abstract: The aim of this paper is to estimate the effect that climate change will have on groundwater recharge at the Yucatan Peninsula, Mexico. The groundwater recharge is calculated from a monthly water balance model considering eight methods of potential and actual evapotranspiration. Historical data from 1961–2000 and climate model outputs from five downscaled general circulation models in the near horizon (2015–2039), with representative concentration pathway (RCP) 4.5 and 8.5 are used. The results estimate a recharge of 118 ± 33 mm·year–1 (around 10% of precipitation) in the historical period. Considering the uncertainty from GCMs under different RCP and evapotranspiration scenarios, our monthly water balance model estimates a groundwater recharge of 92 ± 40 mm·year–1 (RCP4.5) and 94 ± 38 mm·year–1 (RCP8.5) which represent a reduction of 23% and 20%, respectively, a result that threatens the socio-ecological balance of the region.
+abstract: The aim of this paper is to estimate the effect that climate change will have on groundwater recharge at the Yucatan Peninsula, Mexico. The groundwater recharge is calculated from a monthly water balance model considering eight methods of potential and actual evapotranspiration. Historical data from 1961–2000 and climate model outputs from five downscaled general circulation models in the near horizon (2015–2039), with representative concentration pathway (RCP) 4.5 and 8.5 are used. The results estimate a recharge of $118 \\pm 33 mm·year^{–1}$ (around 10% of precipitation) in the historical period. Considering the uncertainty from GCMs under different RCP and evapotranspiration scenarios, our monthly water balance model estimates a groundwater recharge of $99 \\pm 40 mm·year^{–1}$ (RCP4.5) and $94 \\pm 38 mm·year^{-1}$ (RCP8.5) which represent a reduction of 23% and 20%, respectively, a result that threatens the socio-ecological balance of the region.
 
 # author_notes:
 # - Equal contribution
@@ -10,6 +10,7 @@ authors:
 - Laura M. Hernández-Terrones
 date: "2019-12-28T00:00:00Z"
 doi: "https://doi.org/10.1080/02626667.2019.1702989"
+math: true
 featured: false
 image:
   caption: 'Image credit: [Edgar Rodríguez Huerta ](https://ars.els-cdn.com/content/image/1-s2.0-S0959652619322875-fx1_lrg.jpg)'

@@ -19,6 +19,18 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Coursera. Yonsei University"
+  organization_url = "https://www.coursera.org"
+  title = "Spatial Data Science and Applications"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/KWT4J43KF93W"
+  date_start = "2020-09-01"
+  date_end = "2020-09-10"
+  description = "This course defines spatial data science and answer why spatial is special from three different perspectives - business, technology, and data in the first week. It includes four disciplines related to spatial data science - GIS, DBMS, Data Analytics, and Big Data Systems, and the related open source software's - QGIS, PostgreSQL, PostGIS, R, and Hadoop tools."
+
+
+
+[[item]]
   organization = "Coursera. Johns Hopkins University"
   organization_url = "https://www.coursera.org"
   title = "Specialization in Data Science"

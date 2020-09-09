@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resilience | [ Sustainability &#43; Data ] · Science</title>
+    <link>/site/tag/resilience/</link>
+      <atom:link href="/site/tag/resilience/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resilience</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/site/media/logo-edgarodriguez.png</url>
+      <title>Resilience</title>
+      <link>/site/tag/resilience/</link>
+    </image>
+    
+    <item>
+      <title>Resilience, with R</title>
+      <link>/site/project/resilience-with-r/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/site/project/resilience-with-r/</guid>
+      <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

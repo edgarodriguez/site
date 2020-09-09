@@ -13,6 +13,10 @@ interval = false
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
 height = ""
 
+[design.background]
+  text_color_light= true
+
+
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
 
@@ -37,28 +41,28 @@ height = ""
 
 [[item]]
   title = "Welcome"
-  content = "We are working..."
-  align = ""
+  content = "Raising resilience to climate change with Data Science  (Web under construction - We are working...)"
+  align = "center"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#363636"  # An HTML color value.
+  overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
+  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
   
 [[item]]
-  title = "*If the only thing you've got is a hammer, you tend to treat everything as if was a nail*"
-  content = "*Abraham Maslow* "
-  align = "left"
+  title = ""
+  content = "'If the only thing you've got is a hammer, you tend to treat everything as if was a nail' **Abraham Maslow**"
+  align = "right"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#363636"  # An HTML color value.
+  overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
+  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
 
 [[item]]
-  title = "For every complex problem there is an answer that is clear, simple, and wrong"
-  content = "*H. L. Mencken*"
-  align = "left"
+  title = ""
+  content = "'For every complex problem there is an answer that is clear, simple, and wrong' **H. L. Mencken**"
+  align = "right"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#363636"  # An HTML color value.
+  overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
+  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
 +++

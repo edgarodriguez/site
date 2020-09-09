@@ -33,13 +33,53 @@
   </url>
   
   <url>
+    <loc>/site/authors/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/site/categories/</loc>
-    <lastmod>2020-09-02T20:48:22-05:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/data-science/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/ecosystem-services/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/author/edgar-rodriguez-huerta/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/happy-maps/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/site/post/</loc>
-    <lastmod>2020-09-02T20:48:22-05:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/spatial-analysis/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/sustainability/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tags/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -53,22 +93,12 @@
   </url>
   
   <url>
-    <loc>/site/authors/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/site/post/coursera-leaflet/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
     <loc>/site/post/coursera-plotly/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/category/data-science/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
@@ -83,11 +113,6 @@
   </url>
   
   <url>
-    <loc>/site/author/edgar-rodriguez-huerta/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/site/tag/r/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
@@ -98,17 +123,7 @@
   </url>
   
   <url>
-    <loc>/site/tag/spatial-analysis/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/site/category/spatial-analysis/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tags/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
@@ -134,11 +149,6 @@
   
   <url>
     <loc>/site/tag/biodiversity/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tag/ecosystem-services/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,6 +308,16 @@
   </url>
   
   <url>
+    <loc>/site/project/covid-19-mx/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/data-science/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/site/tag/energy-planning/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -309,6 +329,16 @@
   
   <url>
     <loc>/site/project/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/resilience/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/project/resilience-with-r/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   

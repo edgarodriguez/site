@@ -46,6 +46,9 @@
 
   
   
+  
+  <script src="/site/js/mathjax-config.js"></script>
+  
 
   
   
@@ -183,9 +186,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -250,7 +253,7 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-176912932-1', {});
+  gtag('config', 'UA-176912932-1', { 'anonymize_ip': true });
 
   
   document.addEventListener('click', onClickCallback, false);
@@ -351,6 +354,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#547980",
+          "text": "#EAE7D6"
+        },
+        "button": {
+          "background": "#EAE7D6",
+          "text": "#547980"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/site/privacy/"
+      }
+    })});
+  </script>
+
 
 
   
@@ -779,7 +812,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The aim of this paper is to estimate the effect that climate change will have on groundwater recharge at the Yucatan Peninsula, Mexico. The groundwater recharge is calculated from a monthly water balance model considering eight methods of potential and actual evapotranspiration. Historical data from 1961–2000 and climate model outputs from five downscaled general circulation models in the near horizon (2015–2039), with representative concentration pathway (RCP) 4.5 and 8.5 are used. The results estimate a recharge of 118 ± 33 mm·year–1 (around 10% of precipitation) in the historical period. Considering the uncertainty from GCMs under different RCP and evapotranspiration scenarios, our monthly water balance model estimates a groundwater recharge of 92 ± 40 mm·year–1 (RCP4.5) and 94 ± 38 mm·year–1 (RCP8.5) which represent a reduction of 23% and 20%, respectively, a result that threatens the socio-ecological balance of the region.</p>
+    <p class="pub-abstract">The aim of this paper is to estimate the effect that climate change will have on groundwater recharge at the Yucatan Peninsula, Mexico. The groundwater recharge is calculated from a monthly water balance model considering eight methods of potential and actual evapotranspiration. Historical data from 1961–2000 and climate model outputs from five downscaled general circulation models in the near horizon (2015–2039), with representative concentration pathway (RCP) 4.5 and 8.5 are used. The results estimate a recharge of $118 \pm 33 mm·year^{–1}$ (around 10% of precipitation) in the historical period. Considering the uncertainty from GCMs under different RCP and evapotranspiration scenarios, our monthly water balance model estimates a groundwater recharge of $99 \pm 40 mm·year^{–1}$ (RCP4.5) and $94 \pm 38 mm·year^{-1}$ (RCP8.5) which represent a reduction of 23% and 20%, respectively, a result that threatens the socio-ecological balance of the region.</p>
     
 
     
@@ -1158,6 +1191,8 @@
     <ul>
       
       <li><a href="/site/publication/water-metabolic-rate/">Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</a></li>
+      
+      <li><a href="/site/post/happy-maps/">Happy Maps</a></li>
       
       <li><a href="/site/post/coursera-leaflet/">Creating maps with Leaflet Package and Rmd</a></li>
       
