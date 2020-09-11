@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDGs | [ Sustainability &#43; Data ] · Science</title>
+    <link>/site/tag/sdgs/</link>
+      <atom:link href="/site/tag/sdgs/index.xml" rel="self" type="application/rss+xml" />
+    <description>SDGs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/site/media/logo-edgarodriguez.png</url>
+      <title>SDGs</title>
+      <link>/site/tag/sdgs/</link>
+    </image>
+    
+    <item>
+      <title>Trade-offs of Sustainable Development Goals (SDG)</title>
+      <link>/site/post/sdgs-trade-offs/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/site/post/sdgs-trade-offs/</guid>
+      <description>&lt;p&gt;The 
+&lt;a href=&#34;https://www.un.org/sustainabledevelopment/sustainable-development-goals/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sustainable Development Goals&lt;/a&gt; (SDGs) represented a positive progress of Millennium Development Goals (MDGs). They offer a complex approach by integrating the three dimensions of sustainability with aspects of management and governance &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. However, the incorporation of environmental boundaries has generated contradictions among goals &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. We need to be aware that reaching all SDGs without negative impacts will be impossible, simply because implementing the 17 SDGs will imply more consumptions of commodities, which will jeopardize natural resources &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;SDGs can no longer be analysed as a list of isolated targets or ‘silo approach’ &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. The study of the spill-over effects among goals and targets are increasingly noticeable &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and facilitates understanding of interactions between human-environmental systems &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. These interrelations have been analysed since MDGs using system dynamics (SD) and causal diagrams &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; and it has been directed towards nexus analysis among water, energy, food, and land use, through methods such as system models, ecological footprints, and material and resource flow analysis &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. A nexus approach detect and minimize harmful trade-offs and identify synergies across the system, enhancing integrated planning, decision-making, governance, and management &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Despite the transdisciplinary effort, much remains to be done. The addition of interactions (across temporal and geographical scales) increases the complexity of the analysis and monitoring of the SDG. Moreover, social and technological circumstances in each region, as culture, stakeholders, and lack of data, difficult the standardization of techniques to keep a systematic control. We are facing a complex problem, not only due to the connectivity of the 169 targets, but also for being in a system with evident conflicts of interest, and with many actors, and with extensive casuistry linked to regional settings.&lt;/p&gt;
+&lt;p&gt;The methods and tools that we develop must, on one hand, be flexible to adapt to the changing social-environmental conditions, and capable to include approaches that are developing in the studies of nexus of SDG (i.e., SD, Complex Networks, Societal Metabolism). On the other hand, it may be able to maintain a replicable and logical structure, reliable for the measurement of qualitative and quantitative indicators, which allows monitoring the performance of activities and initiatives, following the premise that “If you cannot measure it, you cannot improve it”.&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. Costanza et al., “Modelling and measuring sustainable wellbeing in connection with the UN Sustainable Development Goals,” Ecol. Econ., 2016. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. G. G. Caiado, W. L. Filho, O. L. G. Quelhas, D. Luiz de Mattos Nascimento, and L. V. Ávila, “A Literature-Based Review on Potentials and Constraints in the Implementation of the Sustainable Development Goals,” J. Clean. Prod., vol. 198, pp. 1276–1288, 2018. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;V. Spaiser, S. Ranganathan, R. B. Swain, and D. J. T. Sumpter, “The sustainable development oxymoron: quantifying and modelling the incompatibility of sustainable development goals,” Int. J. Sustain. Dev. World Ecol., vol. 24, no. 6, pp. 457–470, 2017. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;ICSU and ISSC, “Review of Targets for the Sustainable Development Goals: The Science Perspective.” Paris, 2015. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. A. Bryan, M. Hadjikakou, and E. A. Moallemi, “Rapid SDG progress possible,” Nat. Sustain. News views, vol. 2, no. 11, pp. 999–1000, 2019. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;D. Collste, M. Pedercini, and S. E. Cornell, “Policy coherence to achieve the SDGs: using integrated simulation models to assess effective policies,” Sustain. Sci., vol. 12, no. 6, pp. 921–931, 2017. &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;G. Ferri and H. Sedehi, “The System view of the Sustainable Development Goals,” Rome, 28, 2018. &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;D. Le Blanc, “Towards Integration at Last? The Sustainable Development Goals as a Network of Targets,” Sustain. Dev., vol. 23, no. 3, pp. 176–187, 2015. &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Pedercini, S. Arquitt, D. Collste, and H. Herren, “Harvesting synergy from sustainable development goal interactions,” Proc. Natl. Acad. Sci. U. S. A., vol. 116, no. 46, pp. 23021–23038, 2019. &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;J. Liu et al., “Nexus approaches to global sustainable development,” Nat. Sustain., vol. 1, no. 9, pp. 466–476, 2018. &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;W. Schoenberg, “The Effectiveness of Force Directed Graphs vs. Causal Loop Diagrams: An experimental study,” in The 27th International Conference of the System Dynamics Society, 2009. &lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Pedercini and G. O. Barney, “Dynamic analysis of interventions designed to achieve millennium development goals (MDG): The case of Ghana,” Socioecon. Plann. Sci., vol. 44, no. 2, pp. 89–99, 2010. &lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;R. Bleischwitz et al., “Resource nexus perspectives towards the United Nations Sustainable Development Goals,” Nat. Sustain., vol. 1, no. 12, pp. 737–743, 2018. &lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

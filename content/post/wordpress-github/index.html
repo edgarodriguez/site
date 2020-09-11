@@ -1,0 +1,50 @@
+---
+title: Wordpress + Github pages
+author: admin
+date: '2020-05-11'
+slug: wordpress-github
+draft: TRUE
+categories:
+  - Website
+tags: [Website]
+subtitle: 'An alternative to blogdown'
+summary: 'How create a static website with Wordpress + GitHub Pages'
+authors: []
+lastmod: '2020-05-12T20:48:22-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Before knowing <code>blogdown</code> and how easy it is to create web pages from <a href="https://rstudio.com/">Rstudio</a>. I started a project to develop a website from <a href="https://wordpress.org/">Wordpress</a> and convert it to a static site to publish it from <a href="https://pages.github.com">Github-Pages</a>.</p>
+<p>Although the website never saw the daylight, I configured it to until have a final version. If you do not know <code>R</code> and Rstudio, perhaps it could be an alternative to consider.</p>
+<div class="figure">
+<img src="github-wordpress.png" alt="" />
+<p class="caption">png</p>
+</div>
+<p>Here are the basic steps and a very illustrative video on how to create a static page from Wordpress and publish it on gh-pages:</p>
+<ol style="list-style-type: decimal">
+<li><p>Install <a href="https://www.wampserver.com/en/">WAMP64</a></p></li>
+<li><p>Create database in <code>PHPadmin</code> <em>(i.e. <a href="http:/localhost:8012/phpmyadmin" class="uri">http:/localhost:8012/phpmyadmin</a>)</em></p></li>
+<li><p>Create repository on Github
+3.1 Configure Github repository with <code>gh-pages</code> as default branch
+3.2. Add an empty <code>.nojekyll</code> file in the repository root</p></li>
+<li><p>With GitHub desktop, clone the repository and put it as local folder
+<em>(i.e C:/wamp64/www/“repository name”)</em></p></li>
+<li><p>Download, unzip, and paste the <a href="https://wordpress.org/">Wordpress</a> files in a local folder.</p></li>
+<li><p>Open database installation location (step 1): <em>(i.e. <a href="http:/localhost:port/%22database" class="uri">http:/localhost:port/"database</a> name")</em> to install Wordpress</p></li>
+<li><p>Install Wordpress: <strong>database host: localhost</strong> and <strong>port-of-MySQL (i.e. 3308)</strong></p></li>
+<li><p>From Wordpress, Install <a href="https://wp2static.com/">WP2Static</a>.</p></li>
+<li><p>Select <code>zip</code> file option (Although there is an option to export to Github-pages, it gave me several errors during the process).</p></li>
+<li><p>In the configuration of <a href="https://wp2static.com/">WP2Static</a>, define URL destination.</p></li>
+<li><p>Unzip, copy and paste he generated file into the local folder (step 3).</p></li>
+<li><p>Commit and pull from Github desktop.</p></li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EUnvXLfHXtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p><strong>Tutorial by AKSHAY BHOPANI</strong></p>

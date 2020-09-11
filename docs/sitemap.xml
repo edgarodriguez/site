@@ -34,12 +34,12 @@
   
   <url>
     <loc>/site/authors/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/site/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,7 +54,7 @@
   
   <url>
     <loc>/site/author/edgar-rodriguez-huerta/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -64,7 +64,7 @@
   
   <url>
     <loc>/site/post/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -74,22 +74,12 @@
   
   <url>
     <loc>/site/category/sustainability/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/site/tags/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/category/website/</loc>
-    <lastmod>2020-09-02T20:48:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/post/wordpress-github/</loc>
-    <lastmod>2020-09-02T20:48:22-05:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -133,21 +123,6 @@
   </url>
   
   <url>
-    <loc>/site/category/logistics/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/tag/sustainability/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/post/sbsc/</loc>
-    <lastmod>2020-08-31T00:29:08-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/site/tag/biodiversity/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -158,23 +133,48 @@
   </url>
   
   <url>
-    <loc>/site/tag/nexus-wefl/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/category/nexus-wefl/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/site/post/synecology/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/site/tag/sdgs/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/sdgs-trade-offs/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/nexus-wefl/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/sgds/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/site/post/what-a-crop/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/tag/website/</loc>
+    <lastmod>2020-05-12T20:48:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/category/website/</loc>
+    <lastmod>2020-05-12T20:48:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/site/post/wordpress-github/</loc>
+    <lastmod>2020-05-12T20:48:22-05:00</lastmod>
   </url>
   
   <url>
@@ -238,6 +238,11 @@
   </url>
   
   <url>
+    <loc>/site/tag/sustainability/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/site/tag/water-consumption/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -250,11 +255,6 @@
   <url>
     <loc>/site/author/george-cushen-academic-hugo-theme/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/post/sdgs-trade-offs/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -343,13 +343,13 @@
   </url>
   
   <url>
-    <loc>/site/project/water-societal-metabolism/</loc>
+    <loc>/site/project/gies/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>/site/project/water-societal-metabolism/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -359,11 +359,6 @@
   
   <url>
     <loc>/site/work-progress/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/site/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   

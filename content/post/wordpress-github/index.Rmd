@@ -1,0 +1,49 @@
+---
+title: Wordpress + Github pages
+author: admin
+date: '2020-05-11'
+slug: wordpress-github
+draft: TRUE
+categories:
+  - Website
+tags: [Website]
+subtitle: 'An alternative to blogdown'
+summary: 'How create a static website with Wordpress + GitHub Pages'
+authors: []
+lastmod: '2020-05-12T20:48:22-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Before knowing `blogdown` and how easy it is to create web pages from [Rstudio](https://rstudio.com/). I started a project to develop a website from [Wordpress](https://wordpress.org/) and convert it to a static site to publish it from [Github-Pages](https://pages.github.com).
+
+Although the website never saw the daylight, I configured it to until have a final version. If you do not know `R` and Rstudio, perhaps it could be an alternative to consider.
+
+![png](./github-wordpress.png)
+
+Here are the basic steps and a very illustrative video on how to create a static page from Wordpress and publish it on gh-pages:
+
+1. Install [WAMP64](https://www.wampserver.com/en/)
+2. Create database in `PHPadmin` *(i.e. http:/localhost:8012/phpmyadmin)*
+3. Create repository on Github
+    3.1 Configure Github repository with `gh-pages` as default branch
+    3.2. Add an empty `.nojekyll` file in the repository root
+
+4. With GitHub desktop, clone the repository and put it as local folder
+    *(i.e C:/wamp64/www/"repository name")*
+
+5. Download, unzip, and paste the [Wordpress](https://wordpress.org/) files in a local folder.
+6. Open database installation location (step 1): *(i.e. http:/localhost:port/"database name")* to install Wordpress
+7. Install Wordpress: **database host: localhost** and **port-of-MySQL (i.e. 3308)**
+8. From Wordpress, Install [WP2Static](https://wp2static.com/).
+9. Select `zip` file option (Although there is an option to export to Github-pages, it gave me several errors during the process).
+10. In the configuration of [WP2Static](https://wp2static.com/), define URL destination.
+11. Unzip, copy and paste he generated file into the local folder (step 3).
+12. Commit and pull from Github desktop.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EUnvXLfHXtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Tutorial by AKSHAY BHOPANI**

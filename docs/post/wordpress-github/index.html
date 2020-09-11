@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="How create a static website with Wordpress &#43; GitHub Pages">
 
   
   <link rel="alternate" hreflang="en-us" href="/site/post/wordpress-github/">
@@ -292,13 +292,13 @@
   <meta property="og:site_name" content="[ Sustainability &#43; Data ] · Science">
   <meta property="og:url" content="/site/post/wordpress-github/">
   <meta property="og:title" content="Wordpress &#43; Github pages | [ Sustainability &#43; Data ] · Science">
-  <meta property="og:description" content=""><meta property="og:image" content="/site/media/logo-edgarodriguez.png">
+  <meta property="og:description" content="How create a static website with Wordpress &#43; GitHub Pages"><meta property="og:image" content="/site/media/logo-edgarodriguez.png">
   <meta property="twitter:image" content="/site/media/logo-edgarodriguez.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-03T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-05-11T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-02T20:48:22-05:00">
+    <meta property="article:modified_time" content="2020-05-12T20:48:22-05:00">
   
 
   
@@ -326,8 +326,8 @@
   },
   "headline": "Wordpress + Github pages",
   
-  "datePublished": "2020-09-03T00:00:00Z",
-  "dateModified": "2020-09-02T20:48:22-05:00",
+  "datePublished": "2020-05-11T00:00:00Z",
+  "dateModified": "2020-05-12T20:48:22-05:00",
   
   "author": {
     "@type": "Person",
@@ -342,7 +342,7 @@
       "url": "/site/images/icon_hu550143cdb3001cc842f523383396700e_1264421_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "How create a static website with Wordpress + GitHub Pages"
 }
 </script>
 
@@ -678,7 +678,7 @@
           Last updated on
       
     
-    Sep 2, 2020
+    May 12, 2020
   </span>
   
 
@@ -687,7 +687,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    2 min read
   </span>
   
 
@@ -730,7 +730,33 @@
       
 
 
-
+<p>Before knowing <code>blogdown</code> and how easy it is to create web pages from <a href="https://rstudio.com/">Rstudio</a>. I started a project to develop a website from <a href="https://wordpress.org/">Wordpress</a> and convert it to a static site to publish it from <a href="https://pages.github.com">Github-Pages</a>.</p>
+<p>Although the website never saw the daylight, I configured it to until have a final version. If you do not know <code>R</code> and Rstudio, perhaps it could be an alternative to consider.</p>
+<div class="figure">
+<img src="github-wordpress.png" alt="" />
+<p class="caption">png</p>
+</div>
+<p>Here are the basic steps and a very illustrative video on how to create a static page from Wordpress and publish it on gh-pages:</p>
+<ol style="list-style-type: decimal">
+<li><p>Install <a href="https://www.wampserver.com/en/">WAMP64</a></p></li>
+<li><p>Create database in <code>PHPadmin</code> <em>(i.e. <a href="http:/localhost:8012/phpmyadmin" class="uri">http:/localhost:8012/phpmyadmin</a>)</em></p></li>
+<li><p>Create repository on Github
+3.1 Configure Github repository with <code>gh-pages</code> as default branch
+3.2. Add an empty <code>.nojekyll</code> file in the repository root</p></li>
+<li><p>With GitHub desktop, clone the repository and put it as local folder
+<em>(i.e C:/wamp64/www/“repository name”)</em></p></li>
+<li><p>Download, unzip, and paste the <a href="https://wordpress.org/">Wordpress</a> files in a local folder.</p></li>
+<li><p>Open database installation location (step 1): <em>(i.e. <a href="http:/localhost:port/%22database" class="uri">http:/localhost:port/"database</a> name")</em> to install Wordpress</p></li>
+<li><p>Install Wordpress: <strong>database host: localhost</strong> and <strong>port-of-MySQL (i.e. 3308)</strong></p></li>
+<li><p>From Wordpress, Install <a href="https://wp2static.com/">WP2Static</a>.</p></li>
+<li><p>Select <code>zip</code> file option (Although there is an option to export to Github-pages, it gave me several errors during the process).</p></li>
+<li><p>In the configuration of <a href="https://wp2static.com/">WP2Static</a>, define URL destination.</p></li>
+<li><p>Unzip, copy and paste he generated file into the local folder (step 3).</p></li>
+<li><p>Commit and pull from Github desktop.</p></li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EUnvXLfHXtk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p><strong>Tutorial by AKSHAY BHOPANI</strong></p>
 
     </div>
 
@@ -740,6 +766,12 @@
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/site/tag/website/">Website</a>
+  
+</div>
 
 
 
@@ -1019,8 +1051,6 @@
     <ul>
       
       <li><a href="/site/post/writing-technical-content/">Writing technical content in Academic</a></li>
-      
-      <li><a href="/site/post/sdgs-trade-offs/">Writing technical content in Academic</a></li>
       
       <li><a href="/site/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
       

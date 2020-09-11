@@ -24,14 +24,19 @@ tags:
 
 title: Happy Maps
 subtitle: 'The shortest path is not the only option'
-summary: ''
+summary: 'The shortest path is not the only option'
 ---
- enjoyable routes instead of single path
- a full experience 
+
+What if we stop looking for the most efficient route?
+
+Thanks to projects like ['Happy maps'](http://goodcitylife.org/) it is possible to analyze beyond which is the shortest route.
+Data mining and [Participatory Geographical Information Systems (PGIS)](https://www.participatorymethods.org/method/participatory-geographical-information-systems-pgis) make possible to identify points of interest, parks, recreation areas that result in a more pleasant journey. 
+A remarkable way of how spatial analysis creates solutions for the well-being of the community, and provides a full experience of the city.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AJg9SXIcPiM?start=305" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Daniele Quercia. TedTalks**
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
+
+### Did you find this page interesting? Consider sharing it 🙌
 
