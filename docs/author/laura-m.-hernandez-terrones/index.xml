@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laura M. Hernández-Terrones | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/author/laura-m.-hernandez-terrones/</link>
-      <atom:link href="//edgarodriguez.me/author/laura-m.-hernandez-terrones/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/laura-m.-hernandez-terrones/</link>
+      <atom:link href="/author/laura-m.-hernandez-terrones/index.xml" rel="self" type="application/rss+xml" />
     <description>Laura M. Hernández-Terrones</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>Laura M. Hernández-Terrones</title>
-      <link>//edgarodriguez.me/author/laura-m.-hernandez-terrones/</link>
+      <link>/author/laura-m.-hernandez-terrones/</link>
     </image>
     
     <item>
       <title>A water balance model to estimate climate change impact on groundwater recharge in Yucatan Peninsula, Mexico</title>
-      <link>//edgarodriguez.me/publication/water-balance-model/</link>
+      <link>/publication/water-balance-model/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/publication/water-balance-model/</guid>
+      <guid>/publication/water-balance-model/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</title>
-      <link>//edgarodriguez.me/publication/water-metabolic-rate/</link>
+      <link>/publication/water-metabolic-rate/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/publication/water-metabolic-rate/</guid>
+      <guid>/publication/water-metabolic-rate/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

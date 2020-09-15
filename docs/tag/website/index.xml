@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/tag/website/</link>
-      <atom:link href="//edgarodriguez.me/tag/website/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/website/</link>
+      <atom:link href="/tag/website/index.xml" rel="self" type="application/rss+xml" />
     <description>Website</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>Website</title>
-      <link>//edgarodriguez.me/tag/website/</link>
+      <link>/tag/website/</link>
     </image>
     
     <item>
       <title>Wordpress &#43; Github pages</title>
-      <link>//edgarodriguez.me/post/wordpress-github/</link>
+      <link>/post/wordpress-github/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/wordpress-github/</guid>
+      <guid>/post/wordpress-github/</guid>
       <description>
 
 

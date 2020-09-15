@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/category/data-science/</link>
-      <atom:link href="//edgarodriguez.me/category/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/data-science/</link>
+      <atom:link href="/category/data-science/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>Data Science</title>
-      <link>//edgarodriguez.me/category/data-science/</link>
+      <link>/category/data-science/</link>
     </image>
     
     <item>
       <title>Happy Maps</title>
-      <link>//edgarodriguez.me/post/happy-maps/</link>
+      <link>/post/happy-maps/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/happy-maps/</guid>
+      <guid>/post/happy-maps/</guid>
       <description>&lt;p&gt;What if we stop looking for the most efficient route?&lt;/p&gt;
 &lt;p&gt;Thanks to projects like 
 &lt;a href=&#34;http://goodcitylife.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;Happy maps&amp;rsquo;&lt;/a&gt; it is possible to analyze beyond which is the shortest route.
@@ -31,13 +31,13 @@ A remarkable way of how spatial analysis creates solutions for the well-being of
     
     <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
-      <link>//edgarodriguez.me/post/coursera-leaflet/</link>
+      <link>/post/coursera-leaflet/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/coursera-leaflet/</guid>
+      <guid>/post/coursera-leaflet/</guid>
       <description>
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Leaflet&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;

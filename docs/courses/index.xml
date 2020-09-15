@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/courses/</link>
-      <atom:link href="//edgarodriguez.me/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>/courses/</link>
+      <atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>Courses</title>
-      <link>//edgarodriguez.me/courses/</link>
+      <link>/courses/</link>
     </image>
     
   </channel>

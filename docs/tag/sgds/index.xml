@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SGDs | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/tag/sgds/</link>
-      <atom:link href="//edgarodriguez.me/tag/sgds/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/sgds/</link>
+      <atom:link href="/tag/sgds/index.xml" rel="self" type="application/rss+xml" />
     <description>SGDs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>SGDs</title>
-      <link>//edgarodriguez.me/tag/sgds/</link>
+      <link>/tag/sgds/</link>
     </image>
     
     <item>
       <title>What a Crop?</title>
-      <link>//edgarodriguez.me/post/covid-19-mx-deaths/</link>
+      <link>/post/covid-19-mx-deaths/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/covid-19-mx-deaths/</guid>
+      <guid>/post/covid-19-mx-deaths/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>What a Crop?</title>
-      <link>//edgarodriguez.me/post/what-a-crop/</link>
+      <link>/post/what-a-crop/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/what-a-crop/</guid>
+      <guid>/post/what-a-crop/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;

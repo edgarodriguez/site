@@ -13,7 +13,7 @@ subtitle = "Research in Sustainability Science"
 
 #baseurl = "https://edgarodriguez.github.io/site/"
 
-baseurl = "https://http://edgarodriguez.me/"
+baseurl = "http://edgarodriguez.me/"
 
 publishDir = "docs"
 picture = "logo.png"

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/</link>
-      <atom:link href="//edgarodriguez.me/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>[ Sustainability &#43; Data ] · Science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>[ Sustainability &#43; Data ] · Science</title>
-      <link>//edgarodriguez.me/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>//edgarodriguez.me/courses/example/example1/</link>
+      <link>/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>//edgarodriguez.me/courses/example/example1/</guid>
+      <guid>/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>//edgarodriguez.me/courses/example/example2/</link>
+      <link>/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>//edgarodriguez.me/courses/example/example2/</guid>
+      <guid>/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>Example Talk</title>
-      <link>//edgarodriguez.me/talk/example/</link>
+      <link>/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/talk/example/</guid>
+      <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -78,9 +78,9 @@
     
     <item>
       <title>Happy Maps</title>
-      <link>//edgarodriguez.me/post/happy-maps/</link>
+      <link>/post/happy-maps/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/happy-maps/</guid>
+      <guid>/post/happy-maps/</guid>
       <description>&lt;p&gt;What if we stop looking for the most efficient route?&lt;/p&gt;
 &lt;p&gt;Thanks to projects like 
 &lt;a href=&#34;http://goodcitylife.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;Happy maps&amp;rsquo;&lt;/a&gt; it is possible to analyze beyond which is the shortest route.
@@ -95,13 +95,13 @@ A remarkable way of how spatial analysis creates solutions for the well-being of
     
     <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
-      <link>//edgarodriguez.me/post/coursera-leaflet/</link>
+      <link>/post/coursera-leaflet/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/coursera-leaflet/</guid>
+      <guid>/post/coursera-leaflet/</guid>
       <description>
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Leaflet&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -155,18 +155,18 @@ my_map %&amp;gt;%
     
     <item>
       <title>Creating plots with Plotly Package and Rmd</title>
-      <link>//edgarodriguez.me/post/coursera-plotly/</link>
+      <link>/post/coursera-plotly/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/coursera-plotly/</guid>
+      <guid>/post/coursera-plotly/</guid>
       <description>
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Plotly&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -219,9 +219,9 @@ my_plot&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Synecology perspective within ecosystem services</title>
-      <link>//edgarodriguez.me/post/synecology/</link>
+      <link>/post/synecology/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/synecology/</guid>
+      <guid>/post/synecology/</guid>
       <description>&lt;p&gt;Example of Synecology perspective within ecosystem services&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -472,9 +472,9 @@ You found me!
     
     <item>
       <title>Trade-offs of Sustainable Development Goals (SDG)</title>
-      <link>//edgarodriguez.me/post/sdgs-trade-offs/</link>
+      <link>/post/sdgs-trade-offs/</link>
       <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/sdgs-trade-offs/</guid>
+      <guid>/post/sdgs-trade-offs/</guid>
       <description>&lt;p&gt;The 
 &lt;a href=&#34;https://www.un.org/sustainabledevelopment/sustainable-development-goals/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sustainable Development Goals&lt;/a&gt; (SDGs) represented a positive progress of Millennium Development Goals (MDGs). They offer a complex approach by integrating the three dimensions of sustainability with aspects of management and governance &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. However, the incorporation of environmental boundaries has generated contradictions among goals &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. We need to be aware that reaching all SDGs without negative impacts will be impossible, simply because implementing the 17 SDGs will imply more consumptions of commodities, which will jeopardize natural resources &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;SDGs can no longer be analysed as a list of isolated targets or ‘silo approach’ &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. The study of the spill-over effects among goals and targets are increasingly noticeable &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and facilitates understanding of interactions between human-environmental systems &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. These interrelations have been analysed since MDGs using system dynamics (SD) and causal diagrams &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; and it has been directed towards nexus analysis among water, energy, food, and land use, through methods such as system models, ecological footprints, and material and resource flow analysis &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. A nexus approach detect and minimize harmful trade-offs and identify synergies across the system, enhancing integrated planning, decision-making, governance, and management &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -530,9 +530,9 @@ You found me!
     
     <item>
       <title>What a Crop?</title>
-      <link>//edgarodriguez.me/post/covid-19-mx-deaths/</link>
+      <link>/post/covid-19-mx-deaths/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/covid-19-mx-deaths/</guid>
+      <guid>/post/covid-19-mx-deaths/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
@@ -543,9 +543,9 @@ You found me!
     
     <item>
       <title>What a Crop?</title>
-      <link>//edgarodriguez.me/post/what-a-crop/</link>
+      <link>/post/what-a-crop/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/what-a-crop/</guid>
+      <guid>/post/what-a-crop/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
@@ -556,9 +556,9 @@ You found me!
     
     <item>
       <title>Wordpress &#43; Github pages</title>
-      <link>//edgarodriguez.me/post/wordpress-github/</link>
+      <link>/post/wordpress-github/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/wordpress-github/</guid>
+      <guid>/post/wordpress-github/</guid>
       <description>
 
 
@@ -594,9 +594,9 @@ You found me!
     
     <item>
       <title>A water balance model to estimate climate change impact on groundwater recharge in Yucatan Peninsula, Mexico</title>
-      <link>//edgarodriguez.me/publication/water-balance-model/</link>
+      <link>/publication/water-balance-model/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/publication/water-balance-model/</guid>
+      <guid>/publication/water-balance-model/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -614,9 +614,9 @@ You found me!
     
     <item>
       <title>Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</title>
-      <link>//edgarodriguez.me/publication/water-metabolic-rate/</link>
+      <link>/publication/water-metabolic-rate/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/publication/water-metabolic-rate/</guid>
+      <guid>/publication/water-metabolic-rate/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -634,9 +634,9 @@ You found me!
     
     <item>
       <title>Writing technical content in Academic</title>
-      <link>//edgarodriguez.me/post/writing-technical-content/</link>
+      <link>/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/writing-technical-content/</guid>
+      <guid>/post/writing-technical-content/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -887,9 +887,9 @@ You found me!
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>//edgarodriguez.me/post/jupyter/</link>
+      <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/jupyter/</guid>
+      <guid>/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;
@@ -936,9 +936,9 @@ date: 2019-09-01
     
     <item>
       <title>Slides</title>
-      <link>//edgarodriguez.me/slides/example/</link>
+      <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/slides/example/</guid>
+      <guid>/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -1070,27 +1070,27 @@ Three
     
     <item>
       <title>Privacy Policy</title>
-      <link>//edgarodriguez.me/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>//edgarodriguez.me/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Terms</title>
-      <link>//edgarodriguez.me/terms/</link>
+      <link>/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>//edgarodriguez.me/terms/</guid>
+      <guid>/terms/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A societal metabolism approach to job creation and renewable energy transitions in Catalonia</title>
-      <link>//edgarodriguez.me/publication/societal-metabolism-re/</link>
+      <link>/publication/societal-metabolism-re/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/publication/societal-metabolism-re/</guid>
+      <guid>/publication/societal-metabolism-re/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -1108,27 +1108,27 @@ Three
     
     <item>
       <title>COVID-19 Exploratory Analysis and evolution in Mexico</title>
-      <link>//edgarodriguez.me/project/covid-19-mx/</link>
+      <link>/project/covid-19-mx/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/project/covid-19-mx/</guid>
+      <guid>/project/covid-19-mx/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Resilience, with R</title>
-      <link>//edgarodriguez.me/project/resilience-with-r/</link>
+      <link>/project/resilience-with-r/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/project/resilience-with-r/</guid>
+      <guid>/project/resilience-with-r/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Water Societal Metabolism</title>
-      <link>//edgarodriguez.me/project/gies/</link>
+      <link>/project/gies/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/project/gies/</guid>
+      <guid>/project/gies/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 &lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
 &lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
@@ -1140,9 +1140,9 @@ Three
     
     <item>
       <title>Water Societal Metabolism</title>
-      <link>//edgarodriguez.me/project/water-societal-metabolism/</link>
+      <link>/project/water-societal-metabolism/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/project/water-societal-metabolism/</guid>
+      <guid>/project/water-societal-metabolism/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 &lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
 &lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
@@ -1154,17 +1154,17 @@ Three
     
     <item>
       <title>External Project</title>
-      <link>//edgarodriguez.me/work-progress/external-project/</link>
+      <link>/work-progress/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/work-progress/external-project/</guid>
+      <guid>/work-progress/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>//edgarodriguez.me/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
@@ -1309,9 +1309,9 @@ Three
     
     <item>
       <title>Hello R Markdown</title>
-      <link>//edgarodriguez.me/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>//edgarodriguez.me/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 
 
@@ -1348,7 +1348,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;//edgarodriguez.me/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;

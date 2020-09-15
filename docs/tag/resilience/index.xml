@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resilience | [ Sustainability &#43; Data ] · Science</title>
-    <link>//edgarodriguez.me/tag/resilience/</link>
-      <atom:link href="//edgarodriguez.me/tag/resilience/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/resilience/</link>
+      <atom:link href="/tag/resilience/index.xml" rel="self" type="application/rss+xml" />
     <description>Resilience</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
+      <url>/media/logo-edgarodriguez.png</url>
       <title>Resilience</title>
-      <link>//edgarodriguez.me/tag/resilience/</link>
+      <link>/tag/resilience/</link>
     </image>
     
     <item>
       <title>Resilience, with R</title>
-      <link>//edgarodriguez.me/project/resilience-with-r/</link>
+      <link>/project/resilience-with-r/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>//edgarodriguez.me/project/resilience-with-r/</guid>
+      <guid>/project/resilience-with-r/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 </description>
     </item>
