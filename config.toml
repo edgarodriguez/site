@@ -10,7 +10,11 @@ title = "[ Sustainability + Data ] · Science"
 subtitle = "Research in Sustainability Science"
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://edgarodriguez.github.io/site/"
+
+#baseurl = "https://edgarodriguez.github.io/site/"
+
+baseurl = "https://http://edgarodriguez.me/"
+
 publishDir = "docs"
 picture = "logo.png"
 

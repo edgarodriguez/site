@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biodiversity | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/tag/biodiversity/</link>
-      <atom:link href="/site/tag/biodiversity/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/tag/biodiversity/</link>
+      <atom:link href="//edgarodriguez.me/tag/biodiversity/index.xml" rel="self" type="application/rss+xml" />
     <description>Biodiversity</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Biodiversity</title>
-      <link>/site/tag/biodiversity/</link>
+      <link>//edgarodriguez.me/tag/biodiversity/</link>
     </image>
     
     <item>
       <title>Synecology perspective within ecosystem services</title>
-      <link>/site/post/synecology/</link>
+      <link>//edgarodriguez.me/post/synecology/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/synecology/</guid>
+      <guid>//edgarodriguez.me/post/synecology/</guid>
       <description>&lt;p&gt;Example of Synecology perspective within ecosystem services&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecosystem services | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/category/ecosystem-services/</link>
-      <atom:link href="/site/category/ecosystem-services/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/category/ecosystem-services/</link>
+      <atom:link href="//edgarodriguez.me/category/ecosystem-services/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecosystem services</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Ecosystem services</title>
-      <link>/site/category/ecosystem-services/</link>
+      <link>//edgarodriguez.me/category/ecosystem-services/</link>
     </image>
     
     <item>
       <title>Synecology perspective within ecosystem services</title>
-      <link>/site/post/synecology/</link>
+      <link>//edgarodriguez.me/post/synecology/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/synecology/</guid>
+      <guid>//edgarodriguez.me/post/synecology/</guid>
       <description>&lt;p&gt;Example of Synecology perspective within ecosystem services&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;

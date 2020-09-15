@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/project/</link>
-      <atom:link href="/site/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/project/</link>
+      <atom:link href="//edgarodriguez.me/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Projects</title>
-      <link>/site/project/</link>
+      <link>//edgarodriguez.me/project/</link>
     </image>
     
     <item>
       <title>COVID-19 Exploratory Analysis and evolution in Mexico</title>
-      <link>/site/project/covid-19-mx/</link>
+      <link>//edgarodriguez.me/project/covid-19-mx/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/project/covid-19-mx/</guid>
+      <guid>//edgarodriguez.me/project/covid-19-mx/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Resilience, with R</title>
-      <link>/site/project/resilience-with-r/</link>
+      <link>//edgarodriguez.me/project/resilience-with-r/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/project/resilience-with-r/</guid>
+      <guid>//edgarodriguez.me/project/resilience-with-r/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Water Societal Metabolism</title>
-      <link>/site/project/gies/</link>
+      <link>//edgarodriguez.me/project/gies/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/project/gies/</guid>
+      <guid>//edgarodriguez.me/project/gies/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 &lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
 &lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
@@ -46,9 +46,9 @@
     
     <item>
       <title>Water Societal Metabolism</title>
-      <link>/site/project/water-societal-metabolism/</link>
+      <link>//edgarodriguez.me/project/water-societal-metabolism/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/project/water-societal-metabolism/</guid>
+      <guid>//edgarodriguez.me/project/water-societal-metabolism/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
 &lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
 &lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;

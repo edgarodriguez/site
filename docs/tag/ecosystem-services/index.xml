@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecosystem Services | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/tag/ecosystem-services/</link>
-      <atom:link href="/site/tag/ecosystem-services/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/tag/ecosystem-services/</link>
+      <atom:link href="//edgarodriguez.me/tag/ecosystem-services/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecosystem Services</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Ecosystem Services</title>
-      <link>/site/tag/ecosystem-services/</link>
+      <link>//edgarodriguez.me/tag/ecosystem-services/</link>
     </image>
     
     <item>
       <title>Happy Maps</title>
-      <link>/site/post/happy-maps/</link>
+      <link>//edgarodriguez.me/post/happy-maps/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/happy-maps/</guid>
+      <guid>//edgarodriguez.me/post/happy-maps/</guid>
       <description>&lt;p&gt;What if we stop looking for the most efficient route?&lt;/p&gt;
 &lt;p&gt;Thanks to projects like 
 &lt;a href=&#34;http://goodcitylife.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;Happy maps&amp;rsquo;&lt;/a&gt; it is possible to analyze beyond which is the shortest route.
@@ -31,9 +31,9 @@ A remarkable way of how spatial analysis creates solutions for the well-being of
     
     <item>
       <title>Synecology perspective within ecosystem services</title>
-      <link>/site/post/synecology/</link>
+      <link>//edgarodriguez.me/post/synecology/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/synecology/</guid>
+      <guid>//edgarodriguez.me/post/synecology/</guid>
       <description>&lt;p&gt;Example of Synecology perspective within ecosystem services&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;

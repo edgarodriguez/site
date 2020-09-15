@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/authors/</link>
-      <atom:link href="/site/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/authors/</link>
+      <atom:link href="//edgarodriguez.me/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Authors</title>
-      <link>/site/authors/</link>
+      <link>//edgarodriguez.me/authors/</link>
     </image>
     
   </channel>

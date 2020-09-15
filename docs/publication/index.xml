@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/publication/</link>
-      <atom:link href="/site/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/publication/</link>
+      <atom:link href="//edgarodriguez.me/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Publications</title>
-      <link>/site/publication/</link>
+      <link>//edgarodriguez.me/publication/</link>
     </image>
     
     <item>
       <title>A water balance model to estimate climate change impact on groundwater recharge in Yucatan Peninsula, Mexico</title>
-      <link>/site/publication/water-balance-model/</link>
+      <link>//edgarodriguez.me/publication/water-balance-model/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/site/publication/water-balance-model/</guid>
+      <guid>//edgarodriguez.me/publication/water-balance-model/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</title>
-      <link>/site/publication/water-metabolic-rate/</link>
+      <link>//edgarodriguez.me/publication/water-metabolic-rate/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/site/publication/water-metabolic-rate/</guid>
+      <guid>//edgarodriguez.me/publication/water-metabolic-rate/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -54,9 +54,9 @@
     
     <item>
       <title>A societal metabolism approach to job creation and renewable energy transitions in Catalonia</title>
-      <link>/site/publication/societal-metabolism-re/</link>
+      <link>//edgarodriguez.me/publication/societal-metabolism-re/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/publication/societal-metabolism-re/</guid>
+      <guid>//edgarodriguez.me/publication/societal-metabolism-re/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

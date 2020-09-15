@@ -3,402 +3,407 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/site/courses/example/example1/</loc>
+    <loc>//edgarodriguez.me/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/courses/example/</loc>
+    <loc>//edgarodriguez.me/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/courses/example/example2/</loc>
+    <loc>//edgarodriguez.me/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/</loc>
+    <loc>//edgarodriguez.me/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/talk/example/</loc>
+    <loc>//edgarodriguez.me/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/talk/</loc>
+    <loc>//edgarodriguez.me/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/authors/</loc>
+    <loc>//edgarodriguez.me/authors/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/categories/</loc>
+    <loc>//edgarodriguez.me/categories/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/data-science/</loc>
+    <loc>//edgarodriguez.me/category/data-science/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/ecosystem-services/</loc>
+    <loc>//edgarodriguez.me/tag/ecosystem-services/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/author/edgar-rodriguez-huerta/</loc>
+    <loc>//edgarodriguez.me/author/edgar-rodriguez-huerta/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/happy-maps/</loc>
+    <loc>//edgarodriguez.me/post/happy-maps/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/</loc>
+    <loc>//edgarodriguez.me/post/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/spatial-analysis/</loc>
+    <loc>//edgarodriguez.me/tag/spatial-analysis/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/sustainability/</loc>
+    <loc>//edgarodriguez.me/category/sustainability/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tags/</loc>
+    <loc>//edgarodriguez.me/tags/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/coursera-leaflet/</loc>
+    <loc>//edgarodriguez.me/post/coursera-leaflet/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/coursera-plotly/</loc>
+    <loc>//edgarodriguez.me/post/coursera-plotly/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/data-visualization/</loc>
+    <loc>//edgarodriguez.me/tag/data-visualization/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/data-visualization/</loc>
+    <loc>//edgarodriguez.me/category/data-visualization/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/r/</loc>
+    <loc>//edgarodriguez.me/tag/r/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/r/</loc>
+    <loc>//edgarodriguez.me/category/r/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/spatial-analysis/</loc>
+    <loc>//edgarodriguez.me/category/spatial-analysis/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/yucatan-peninsula/</loc>
+    <loc>//edgarodriguez.me/tag/yucatan-peninsula/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/biodiversity/</loc>
+    <loc>//edgarodriguez.me/tag/biodiversity/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/ecosystem-services/</loc>
+    <loc>//edgarodriguez.me/category/ecosystem-services/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/synecology/</loc>
+    <loc>//edgarodriguez.me/post/synecology/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/sdgs/</loc>
+    <loc>//edgarodriguez.me/tag/sdgs/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/sdgs-trade-offs/</loc>
+    <loc>//edgarodriguez.me/post/sdgs-trade-offs/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/nexus-wefl/</loc>
+    <loc>//edgarodriguez.me/tag/nexus-wefl/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/sgds/</loc>
+    <loc>//edgarodriguez.me/tag/sgds/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/what-a-crop/</loc>
+    <loc>//edgarodriguez.me/post/covid-19-mx-deaths/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/website/</loc>
+    <loc>//edgarodriguez.me/post/what-a-crop/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//edgarodriguez.me/tag/website/</loc>
     <lastmod>2020-05-12T20:48:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/category/website/</loc>
+    <loc>//edgarodriguez.me/category/website/</loc>
     <lastmod>2020-05-12T20:48:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/wordpress-github/</loc>
+    <loc>//edgarodriguez.me/post/wordpress-github/</loc>
     <lastmod>2020-05-12T20:48:22-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication-type/2/</loc>
+    <loc>//edgarodriguez.me/publication-type/2/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication/water-balance-model/</loc>
+    <loc>//edgarodriguez.me/publication/water-balance-model/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/climate-change/</loc>
+    <loc>//edgarodriguez.me/tag/climate-change/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/general-circulation-models/</loc>
+    <loc>//edgarodriguez.me/tag/general-circulation-models/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/groundwater-recharge/</loc>
+    <loc>//edgarodriguez.me/tag/groundwater-recharge/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/author/laura-m.-hernandez-terrones/</loc>
+    <loc>//edgarodriguez.me/author/laura-m.-hernandez-terrones/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/author/marti-rosas-casals/</loc>
+    <loc>//edgarodriguez.me/author/marti-rosas-casals/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/monthly-water-balance-model/</loc>
+    <loc>//edgarodriguez.me/tag/monthly-water-balance-model/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication_types/</loc>
+    <loc>//edgarodriguez.me/publication_types/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication/</loc>
+    <loc>//edgarodriguez.me/publication/</loc>
     <lastmod>2019-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/musiasem/</loc>
+    <loc>//edgarodriguez.me/tag/musiasem/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/societal-metabolism/</loc>
+    <loc>//edgarodriguez.me/tag/societal-metabolism/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/sustainability/</loc>
+    <loc>//edgarodriguez.me/tag/sustainability/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/water-consumption/</loc>
+    <loc>//edgarodriguez.me/tag/water-consumption/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication/water-metabolic-rate/</loc>
+    <loc>//edgarodriguez.me/publication/water-metabolic-rate/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/author/george-cushen-academic-hugo-theme/</loc>
+    <loc>//edgarodriguez.me/author/george-cushen-academic-hugo-theme/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/writing-technical-content/</loc>
+    <loc>//edgarodriguez.me/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/courses/</loc>
+    <loc>//edgarodriguez.me/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/jupyter/</loc>
+    <loc>//edgarodriguez.me/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/slides/</loc>
+    <loc>//edgarodriguez.me/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/slides/example/</loc>
+    <loc>//edgarodriguez.me/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/privacy/</loc>
+    <loc>//edgarodriguez.me/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/terms/</loc>
+    <loc>//edgarodriguez.me/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/publication/societal-metabolism-re/</loc>
+    <loc>//edgarodriguez.me/publication/societal-metabolism-re/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/author/alevgul-h.-sorman/</loc>
+    <loc>//edgarodriguez.me/author/alevgul-h.-sorman/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/catalonia/</loc>
+    <loc>//edgarodriguez.me/tag/catalonia/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/project/covid-19-mx/</loc>
+    <loc>//edgarodriguez.me/project/covid-19-mx/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/data-science/</loc>
+    <loc>//edgarodriguez.me/tag/data-science/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/energy-planning/</loc>
+    <loc>//edgarodriguez.me/tag/energy-planning/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/energy-transition/</loc>
+    <loc>//edgarodriguez.me/tag/energy-transition/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/project/</loc>
+    <loc>//edgarodriguez.me/project/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/resilience/</loc>
+    <loc>//edgarodriguez.me/tag/resilience/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/project/resilience-with-r/</loc>
+    <loc>//edgarodriguez.me/project/resilience-with-r/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/project/gies/</loc>
+    <loc>//edgarodriguez.me/project/gies/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/project/water-societal-metabolism/</loc>
+    <loc>//edgarodriguez.me/project/water-societal-metabolism/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/demo/</loc>
+    <loc>//edgarodriguez.me/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/work-progress/external-project/</loc>
+    <loc>//edgarodriguez.me/work-progress/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/work-progress/</loc>
+    <loc>//edgarodriguez.me/work-progress/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/academic/</loc>
+    <loc>//edgarodriguez.me/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/getting-started/</loc>
+    <loc>//edgarodriguez.me/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/blogdown/</loc>
+    <loc>//edgarodriguez.me/tag/blogdown/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>//edgarodriguez.me/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/plot/</loc>
+    <loc>//edgarodriguez.me/tag/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/r-markdown/</loc>
+    <loc>//edgarodriguez.me/tag/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/site/tag/regression/</loc>
+    <loc>//edgarodriguez.me/tag/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   

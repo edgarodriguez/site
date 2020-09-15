@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data visualization | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/tag/data-visualization/</link>
-      <atom:link href="/site/tag/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/tag/data-visualization/</link>
+      <atom:link href="//edgarodriguez.me/tag/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <description>Data visualization</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Data visualization</title>
-      <link>/site/tag/data-visualization/</link>
+      <link>//edgarodriguez.me/tag/data-visualization/</link>
     </image>
     
     <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
-      <link>/site/post/coursera-leaflet/</link>
+      <link>//edgarodriguez.me/post/coursera-leaflet/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/coursera-leaflet/</guid>
+      <guid>//edgarodriguez.me/post/coursera-leaflet/</guid>
       <description>
-&lt;script src=&#34;/site/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Leaflet&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -74,18 +74,18 @@ my_map %&amp;gt;%
     
     <item>
       <title>Creating plots with Plotly Package and Rmd</title>
-      <link>/site/post/coursera-plotly/</link>
+      <link>//edgarodriguez.me/post/coursera-plotly/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/coursera-plotly/</guid>
+      <guid>//edgarodriguez.me/post/coursera-plotly/</guid>
       <description>
-&lt;script src=&#34;/site/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/site/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/site/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Plotly&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -138,9 +138,22 @@ my_plot&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>What a Crop?</title>
-      <link>/site/post/what-a-crop/</link>
+      <link>//edgarodriguez.me/post/covid-19-mx-deaths/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/what-a-crop/</guid>
+      <guid>//edgarodriguez.me/post/covid-19-mx-deaths/</guid>
+      <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
+&lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1599765710651&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;https:&amp;#47;&amp;#47;edgarodriguez.github.io&amp;#47;site&amp;#47;post&amp;#47;what-a-crop&amp;#47;&#39;&gt;&lt;img alt=&#39; &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Y2&amp;#47;Y2MNX22G3&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;path&#39; value=&#39;shared&amp;#47;Y2MNX22G3&#39; /&gt; &lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Y2&amp;#47;Y2MNX22G3&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1599765710651&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    if ( divElement.offsetWidth &gt; 800 ) { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;} else if ( divElement.offsetWidth &gt; 500 ) { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;} else { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=&#39;3427px&#39;;}                     var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What a Crop?</title>
+      <link>//edgarodriguez.me/post/what-a-crop/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//edgarodriguez.me/post/what-a-crop/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;

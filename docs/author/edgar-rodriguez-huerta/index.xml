@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edgar Rodríguez-Huerta | [ Sustainability &#43; Data ] · Science</title>
-    <link>/site/author/edgar-rodriguez-huerta/</link>
-      <atom:link href="/site/author/edgar-rodriguez-huerta/index.xml" rel="self" type="application/rss+xml" />
+    <link>//edgarodriguez.me/author/edgar-rodriguez-huerta/</link>
+      <atom:link href="//edgarodriguez.me/author/edgar-rodriguez-huerta/index.xml" rel="self" type="application/rss+xml" />
     <description>Edgar Rodríguez-Huerta</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/site/media/logo-edgarodriguez.png</url>
+      <url>//edgarodriguez.me/media/logo-edgarodriguez.png</url>
       <title>Edgar Rodríguez-Huerta</title>
-      <link>/site/author/edgar-rodriguez-huerta/</link>
+      <link>//edgarodriguez.me/author/edgar-rodriguez-huerta/</link>
     </image>
     
     <item>
       <title>Happy Maps</title>
-      <link>/site/post/happy-maps/</link>
+      <link>//edgarodriguez.me/post/happy-maps/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/happy-maps/</guid>
+      <guid>//edgarodriguez.me/post/happy-maps/</guid>
       <description>&lt;p&gt;What if we stop looking for the most efficient route?&lt;/p&gt;
 &lt;p&gt;Thanks to projects like 
 &lt;a href=&#34;http://goodcitylife.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;lsquo;Happy maps&amp;rsquo;&lt;/a&gt; it is possible to analyze beyond which is the shortest route.
@@ -31,13 +31,13 @@ A remarkable way of how spatial analysis creates solutions for the well-being of
     
     <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
-      <link>/site/post/coursera-leaflet/</link>
+      <link>//edgarodriguez.me/post/coursera-leaflet/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/coursera-leaflet/</guid>
+      <guid>//edgarodriguez.me/post/coursera-leaflet/</guid>
       <description>
-&lt;script src=&#34;/site/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Leaflet&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -91,18 +91,18 @@ my_map %&amp;gt;%
     
     <item>
       <title>Creating plots with Plotly Package and Rmd</title>
-      <link>/site/post/coursera-plotly/</link>
+      <link>//edgarodriguez.me/post/coursera-plotly/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/coursera-plotly/</guid>
+      <guid>//edgarodriguez.me/post/coursera-plotly/</guid>
       <description>
-&lt;script src=&#34;/site/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/site/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/site/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/site/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;//edgarodriguez.me/site/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;In this example, we created with &lt;code&gt;Plotly&lt;/code&gt; package. Also, I used &lt;code&gt;dplyr&lt;/code&gt; for cleaning the data and &lt;code&gt;widgetframe&lt;/code&gt; for rendering in &lt;code&gt;blogdown&lt;/code&gt; correctly.&lt;/p&gt;
@@ -155,9 +155,9 @@ my_plot&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Synecology perspective within ecosystem services</title>
-      <link>/site/post/synecology/</link>
+      <link>//edgarodriguez.me/post/synecology/</link>
       <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/synecology/</guid>
+      <guid>//edgarodriguez.me/post/synecology/</guid>
       <description>&lt;p&gt;Example of Synecology perspective within ecosystem services&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -408,9 +408,9 @@ You found me!
     
     <item>
       <title>Trade-offs of Sustainable Development Goals (SDG)</title>
-      <link>/site/post/sdgs-trade-offs/</link>
+      <link>//edgarodriguez.me/post/sdgs-trade-offs/</link>
       <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/sdgs-trade-offs/</guid>
+      <guid>//edgarodriguez.me/post/sdgs-trade-offs/</guid>
       <description>&lt;p&gt;The 
 &lt;a href=&#34;https://www.un.org/sustainabledevelopment/sustainable-development-goals/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sustainable Development Goals&lt;/a&gt; (SDGs) represented a positive progress of Millennium Development Goals (MDGs). They offer a complex approach by integrating the three dimensions of sustainability with aspects of management and governance &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. However, the incorporation of environmental boundaries has generated contradictions among goals &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. We need to be aware that reaching all SDGs without negative impacts will be impossible, simply because implementing the 17 SDGs will imply more consumptions of commodities, which will jeopardize natural resources &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;SDGs can no longer be analysed as a list of isolated targets or ‘silo approach’ &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. The study of the spill-over effects among goals and targets are increasingly noticeable &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; and facilitates understanding of interactions between human-environmental systems &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. These interrelations have been analysed since MDGs using system dynamics (SD) and causal diagrams &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; and it has been directed towards nexus analysis among water, energy, food, and land use, through methods such as system models, ecological footprints, and material and resource flow analysis &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;. A nexus approach detect and minimize harmful trade-offs and identify synergies across the system, enhancing integrated planning, decision-making, governance, and management &lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -466,9 +466,22 @@ You found me!
     
     <item>
       <title>What a Crop?</title>
-      <link>/site/post/what-a-crop/</link>
+      <link>//edgarodriguez.me/post/covid-19-mx-deaths/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/site/post/what-a-crop/</guid>
+      <guid>//edgarodriguez.me/post/covid-19-mx-deaths/</guid>
+      <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
+&lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1599765710651&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;https:&amp;#47;&amp;#47;edgarodriguez.github.io&amp;#47;site&amp;#47;post&amp;#47;what-a-crop&amp;#47;&#39;&gt;&lt;img alt=&#39; &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Y2&amp;#47;Y2MNX22G3&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;path&#39; value=&#39;shared&amp;#47;Y2MNX22G3&#39; /&gt; &lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;Y2&amp;#47;Y2MNX22G3&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1599765710651&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    if ( divElement.offsetWidth &gt; 800 ) { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;} else if ( divElement.offsetWidth &gt; 500 ) { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;;} else { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=&#39;3427px&#39;;}                     var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What a Crop?</title>
+      <link>//edgarodriguez.me/post/what-a-crop/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>//edgarodriguez.me/post/what-a-crop/</guid>
       <description>&lt;p&gt;Crop selection is a multi-criteria decision. Depending on seasonality and type of irrigation, it will modify the indicators among regions such as yield, Profit and the Water Footprint.&lt;/p&gt;
 &lt;p&gt;The use of intensive indicators gives us an alternative to analyze the relationships and trade-offs between different flows. Likewise, it can provide better decision-making towards crops that have the highest nutritional benefit or a lower consumption of blue water.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;lsquo;Spatial Data Science is a Science of scale&amp;rsquo;&lt;/em&gt; The drill-down of the data highlights the differences of crop water footprint among sub-regions, irrigation methods and planting season.&lt;/p&gt;
@@ -479,9 +492,9 @@ You found me!
     
     <item>
       <title>A water balance model to estimate climate change impact on groundwater recharge in Yucatan Peninsula, Mexico</title>
-      <link>/site/publication/water-balance-model/</link>
+      <link>//edgarodriguez.me/publication/water-balance-model/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/site/publication/water-balance-model/</guid>
+      <guid>//edgarodriguez.me/publication/water-balance-model/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -499,9 +512,9 @@ You found me!
     
     <item>
       <title>Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</title>
-      <link>/site/publication/water-metabolic-rate/</link>
+      <link>//edgarodriguez.me/publication/water-metabolic-rate/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/site/publication/water-metabolic-rate/</guid>
+      <guid>//edgarodriguez.me/publication/water-metabolic-rate/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -519,9 +532,9 @@ You found me!
     
     <item>
       <title>A societal metabolism approach to job creation and renewable energy transitions in Catalonia</title>
-      <link>/site/publication/societal-metabolism-re/</link>
+      <link>//edgarodriguez.me/publication/societal-metabolism-re/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/site/publication/societal-metabolism-re/</guid>
+      <guid>//edgarodriguez.me/publication/societal-metabolism-re/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
