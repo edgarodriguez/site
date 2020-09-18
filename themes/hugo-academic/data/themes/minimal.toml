@@ -14,7 +14,7 @@ primary_dark = "#f1f1f1"
 menu_primary = "#2a363b"
 menu_text = "#f1f1f1"
 menu_text_active = "#E84a5f"
-menu_title = "#31B3A0" #"#00c07f"
+menu_title = "#39eca7"#"#31B3A0" #"#00c07f"
 
 # Home sections
 background = "#EAE7D6"

@@ -20,8 +20,8 @@ tags:
 - Societal Metabolism
 - Nexus WEFL
 
-title: Water Societal Metabolism
-subtitle: Yucatan Peninsula, México
+title: GIES
+subtitle: blah
 url_code: ""
 url_pdf: "https://www.researchgate.net/publication/343999456_Societal_metabolism_focused_on_water_management_Application_of_the_MuSIASEM_tool_in_Yucatan_Peninsula_Mexico"
 url_slides: ""
