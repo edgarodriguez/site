@@ -14,7 +14,7 @@ image:
   caption: ''
   focal_point: ""
   placement: 2
-  preview_only: true
+  preview_only: false
 lastmod: "2020-06-30T00:00:00Z"
 projects: [COVID-19-MX]
 tags:
@@ -26,7 +26,7 @@ tags:
 math: true
 title: Data cleaning with Tableau Prep
 subtitle: 'Data tools for Cleaning and Wrangling data'
-summary: 'Data visualization of intensive indicators of nexus WEFL'
+summary: 'Data tools for Cleaning and Wrangling data'
 
 ---
 
