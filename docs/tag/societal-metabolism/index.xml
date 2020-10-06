@@ -5,12 +5,36 @@
     <link>/tag/societal-metabolism/</link>
       <atom:link href="/tag/societal-metabolism/index.xml" rel="self" type="application/rss+xml" />
     <description>Societal Metabolism</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo-edgarodriguez.png</url>
       <title>Societal Metabolism</title>
       <link>/tag/societal-metabolism/</link>
     </image>
+    
+    <item>
+      <title>Water Societal Metabolism</title>
+      <link>/project/water-societal-metabolism/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/water-societal-metabolism/</guid>
+      <description>&lt;p&gt;This project was part of my doctoral thesis: 
+&lt;a href=&#34;https://www.tdx.cat/handle/10803/669626#page=4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Societal metabolism focused on water management : application of the MuSIASEM tool in Yucatán Península, México&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;From the WMR it is possible to know how compatible the growth is expected for the region with sustainable water management. In other words, if the appropriation of water prevents the structures of the eco-systemic services from being maintained (within the biophysical limits of the recharge without affecting the natural discharge), then the social metabolic pattern will not be feasible in the long term; so, it will not be sustainable&lt;/p&gt;
+&lt;p&gt;The WMR evolution depends on the characteristics of the sector and its weight within the society and explains how each productive sector has growth in YP, and how this development is related to increasing water use. The analysis provides a new narrative for the relationship between water use and the societal structure, identifying patterns of consumption beyond general averages, ‘per capita’ indicators that hide particularities at a sub-region scale in the YP. Our study describes different consumption patterns across YP, and compares the social and economic characteristics of each state, allowing the personalization of development plans, protection policies, or concrete actions that contribute to groundwater conservation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Water societal metabolism in the Yucatan Peninsula. The impact of climate change on the recharge of groundwater by 2030</title>
@@ -49,43 +73,6 @@
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>COVID-19 Exploratory Analysis and evolution in Mexico</title>
-      <link>/project/covid-19-mx/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19-mx/</guid>
-      <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Water Societal Metabolism</title>
-      <link>/project/gies/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/gies/</guid>
-      <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
-&lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
-&lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
-&lt;p&gt;(3)	Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.&lt;/p&gt;
-&lt;p&gt;From the WMR it is possible to know how compatible the growth is expected for the region with sustainable water management. In other words, if the appropriation of water prevents the structures of the eco-systemic services from being maintained (within the biophysical limits of the recharge without affecting the natural discharge), then the social metabolic pattern will not be feasible in the long term; so, it will not be sustainable&lt;/p&gt;
-&lt;p&gt;The WMR evolution depends on the characteristics of the sector and its weight within the society and explains how each productive sector has growth in YP, and how this development is related to increasing water use. The analysis provides a new narrative for the relationship between water use and the societal structure, identifying patterns of consumption beyond general averages, ‘per capita’ indicators that hide particularities at a sub-region scale in the YP. Our study describes different consumption patterns across YP, and compares the social and economic characteristics of each state, allowing the personalization of development plans, protection policies, or concrete actions that contribute to groundwater conservation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Water Societal Metabolism</title>
-      <link>/project/water-societal-metabolism/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/water-societal-metabolism/</guid>
-      <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
-&lt;p&gt;(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.&lt;/p&gt;
-&lt;p&gt;(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.&lt;/p&gt;
-&lt;p&gt;(3)	Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.&lt;/p&gt;
-&lt;p&gt;From the WMR it is possible to know how compatible the growth is expected for the region with sustainable water management. In other words, if the appropriation of water prevents the structures of the eco-systemic services from being maintained (within the biophysical limits of the recharge without affecting the natural discharge), then the social metabolic pattern will not be feasible in the long term; so, it will not be sustainable&lt;/p&gt;
-&lt;p&gt;The WMR evolution depends on the characteristics of the sector and its weight within the society and explains how each productive sector has growth in YP, and how this development is related to increasing water use. The analysis provides a new narrative for the relationship between water use and the societal structure, identifying patterns of consumption beyond general averages, ‘per capita’ indicators that hide particularities at a sub-region scale in the YP. Our study describes different consumption patterns across YP, and compares the social and economic characteristics of each state, allowing the personalization of development plans, protection policies, or concrete actions that contribute to groundwater conservation.&lt;/p&gt;
 </description>
     </item>
     

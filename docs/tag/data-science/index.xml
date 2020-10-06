@@ -5,7 +5,7 @@
     <link>/tag/data-science/</link>
       <atom:link href="/tag/data-science/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo-edgarodriguez.png</url>
       <title>Data Science</title>
@@ -15,9 +15,31 @@
     <item>
       <title>Resilience, with R</title>
       <link>/project/resilience-with-r/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/project/resilience-with-r/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create a repository of different open-source data analysis tools (with R) to understand the resilience and complexity around it. Including datasets, case studies and work papers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Recognize popular methods, and create an environment to generate reproducible research.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identify research groups thought a bibliographic network to encourage a multi-discipliary collaboration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 in Mexico: Relationship among urban characteristics and contagious/death rates</title>
+      <link>/project/covid-19-mx/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/covid-19-mx/</guid>
+      <description>&lt;p&gt;In Mexico, we only talk about personal characteristics (age, obesity, etc.), 
+I am convinced that the urban environment as (quality of public services) has significant relevance.
+The aim of this project is to identify what urban characteristics affect the number of infections and deaths from COVID-19. Also, we are comparing official data and other sources to measure the real impact of COVID-19 in the mortality rate.&lt;/p&gt;
 </description>
     </item>
     

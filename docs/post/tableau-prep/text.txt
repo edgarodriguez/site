@@ -1,0 +1,8 @@
+Data preparation tools create dynamic and reproducible data flow diagrams at multiple scales, helping to reduce work times. In my case, I cut my time in half. 
+This is a diagram that I generated with #TableauPrep in July 2020 to process data on historical deaths in Mexico, and the effect that COVID-19 has had on other causes of deaths. 
+Data flow diagrams create a dynamic and easy-to-use experience that reduce worktime and encourage the replicability of the research.
+ -data at multiple scales
+
+#COVIDMexico
+#DataScience
+

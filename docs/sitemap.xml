@@ -33,6 +33,36 @@
   </url>
   
   <url>
+    <loc>/tag/data-science/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/resilience/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/resilience-with-r/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
@@ -78,8 +108,18 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+    <loc>/tag/covid-19/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/data-visualization/</loc>
+    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/covid-19-mx-mobility/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,17 +133,7 @@
   </url>
   
   <url>
-    <loc>/tag/data-visualization/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/category/data-visualization/</loc>
-    <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
   
@@ -138,6 +168,11 @@
   </url>
   
   <url>
+    <loc>/project/covid-19-mx/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/sdgs/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
@@ -145,6 +180,21 @@
   <url>
     <loc>/post/sdgs-trade-offs/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/gies/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/green-infrastructure/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sustainability/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -159,6 +209,11 @@
   
   <url>
     <loc>/post/covid-19-mx-deaths/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tableau-prep/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -233,17 +288,17 @@
   </url>
   
   <url>
-    <loc>/tag/musiasem/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/societal-metabolism/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/sustainability/</loc>
+    <loc>/project/water-societal-metabolism/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/musiasem/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,47 +368,12 @@
   </url>
   
   <url>
-    <loc>/project/covid-19-mx/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/data-science/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/energy-planning/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/energy-transition/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/resilience/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/resilience-with-r/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/gies/</loc>
-    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/water-societal-metabolism/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   

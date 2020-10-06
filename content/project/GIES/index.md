@@ -1,9 +1,10 @@
 ---
-date: "2017-09-01T00:00:00Z"
+date: "2020-07-10T00:00:00Z"
 external_link: ""
 image:
-  caption: Photo by Edgar Rodríguez-Huerta
+  caption: 'Image credit: [**Celine Lityo**](https://unsplash.com/photos/Ut0PA2ymJtk)'
   focal_point: Smart
+  preview_only: true
 links:
 - icon: researchgate
   icon_pack: ai
@@ -15,27 +16,33 @@ links:
   url: https://twitter.com/edgarodriguez
   
 # slides: example
-# summary: An example of using the in-built project page.
-tags:
-- Societal Metabolism
-- Nexus WEFL
+summary: Spatial and temporal analysis in peri-urban areas to maximize benefices of Green Infrastructure.
 
-title: GIES
-subtitle: blah
+tags:
+- Green Infrastructure
+- Ecosystem Services
+- Sustainability
+- Spatial Analysis
+
+title: "GI·ES: Linking Green Infrastructure to Ecosystem Services"
+subtitle: Spatial and temporal analysis in peri-urban areas to maximize benefices of Green Infrastructure
 url_code: ""
-url_pdf: "https://www.researchgate.net/publication/343999456_Societal_metabolism_focused_on_water_management_Application_of_the_MuSIASEM_tool_in_Yucatan_Peninsula_Mexico"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-The main objectives of this project are:
+The benefits of Green Infrastructure (GI) in urban areas are massive, and are closely related to the ecosystem services (ES). GI improve the quality of life, mental and physical health, strengthen the sense of belonging, encourages the local social fabric, and reduce social vulnerability. Similarly, they decrease vulnerability and help mitigate the impacts of climate change [^fn1],[^fn2]. On the other hand, ecosystem service maps, are be essential tools to prioritize investments in GI, which will be developed as a network of natural areas, semi-natural areas and green spaces that contribute to biodiversity conservation and enhancement of ecosystem services [^fn3].
+However, usually the locations of the projects are defined randomly, with a single purpose, or where there are particular benefits (such as gentrification) [^fn4]. How do we know that the planning and implementation of GI are located in the areas that enhance sustainability? Which initiatives will provide the greatest number of ecosystem services (for example, better air quality, access to green spaces, habitat connectivity)? Moreover, demographic and economic growth causes an unplanned and accelerated land use change, which will condition the capacity of ecosystem services
+The aim of the project is to increase the benefits of green infrastructure, identifying priority ES in each area, and proposing nature-based solutions that fit better with to the circumstances of the location, which is not constant. Land-use/coverage change (LUCC) is expected due to climate change and urban growth. The proposal is related with two research flagships: “Integrated spatial modelling of land-use, water and air quality, integrating natural and social scientific model and data”, and “Climate change, mitigation and adaptation”.
+The study can be broken down into 5 stages (Figure 1). In the first stage, we will carry out a spatial study of the requirements of the main ecosystem services, by compiling, adapting and applying different ES models. In the second stage, it will use systems dynamics models for analyzing the complex connection between LUCC and socioeconomic development to identify how region will change in the future. In the third stage, we will compare the different alternatives of green infrastructure based on the benefits they offer to ecosystem services, classifying by difficulty of implementation, size, type of vegetation, and population segment benefited. In the fourth section, we will encourage the Public participatory GIS (PP-GIS) to take an inventory of the current infrastructure, as well as to identify potential locations. At the same time, it will serve to integrate qualitative aspects such as cultural ecosystem services. Finally, with the result of the previous sections it is expected to generate a web-based tool for decision-making considering the spatial and temporal criteria, the characteristics and benefits of each type of green infrastructure.
 
-(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.
+![jpg](./figure1.jpg)
 
-(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.
+**Figure 1: Workplan of GI·ES project**
 
-(3)	Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.
 
-From the WMR it is possible to know how compatible the growth is expected for the region with sustainable water management. In other words, if the appropriation of water prevents the structures of the eco-systemic services from being maintained (within the biophysical limits of the recharge without affecting the natural discharge), then the social metabolic pattern will not be feasible in the long term; so, it will not be sustainable
-
-The WMR evolution depends on the characteristics of the sector and its weight within the society and explains how each productive sector has growth in YP, and how this development is related to increasing water use. The analysis provides a new narrative for the relationship between water use and the societal structure, identifying patterns of consumption beyond general averages, ‘per capita’ indicators that hide particularities at a sub-region scale in the YP. Our study describes different consumption patterns across YP, and compares the social and economic characteristics of each state, allowing the personalization of development plans, protection policies, or concrete actions that contribute to groundwater conservation.
+[^fn1]: X. Chen et al., “Research challenges for cultural ecosystem services and public health in (peri-)urban environments,” Sci. Total Environ., vol. 651, pp. 2118–2129, 2019
+[^fn2]: N. Kabisch, J. Stadler, H. Korn, and A. Bonn, “Nature-based solutions to climate change mitigation and adaptation in urban areas: perspectives on indicators, knowledge gaps, barries, and opportunities for action,” Ecol. Soc., vol. 21, no. 2, p. 39, 2016.
+[^fn3]: J. Maes  Braat, L., Jax, K., Hutchins, M., Furman, E., Termansen, M., Luque, S., Paracchini, M.L., Chauvin, C., Williams, R., Volk, M., Lautenbach, S., Kopperoinen, L., Schelhaas, M., Weinert, J., Goossen, M., Dumont, E., Strauch, M., Görg, C., Dormann, C., A spatial assessment of ecosystem services in Europe: methods, case studies and policy analysis - phase 1. PEER (Partnership for European Environmental Research) Report No 3. . 2011.
+[^fn4]: S. Meerow and J. P. Newell, “Spatial planning for multifunctional green infrastructure: Growing resilience in Detroit,” Landsc. Urban Plan., vol. 159, pp. 62–75, 2017.

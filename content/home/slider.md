@@ -41,12 +41,12 @@ height = ""
 
 [[item]]
   title = "Welcome"
-  content = "Raising resilience to climate change with Data Science  (Web under construction - We are working...)"
+  content = "Ideas & projects to raise resilience to climate change"
   align = "center"
 
   overlay_color = "#363636"  # An HTML color value.
   overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   
 [[item]]
   title = ""
@@ -55,7 +55,7 @@ height = ""
 
   overlay_color = "#363636"  # An HTML color value.
   overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 [[item]]
   title = ""
@@ -64,5 +64,5 @@ height = ""
 
   overlay_color = "#363636"  # An HTML color value.
   overlay_img = "logo_new.svg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 +++

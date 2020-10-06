@@ -1,5 +1,5 @@
 ---
-date: "2017-09-01T00:00:00Z"
+date: "2019-12-01T00:00:00Z"
 external_link: ""
 image:
   caption: Photo by Edgar Rodríguez-Huerta
@@ -15,7 +15,7 @@ links:
   url: https://twitter.com/edgarodriguez
   
 # slides: example
-# summary: An example of using the in-built project page.
+summary: Examinating limits of growth of water use.
 tags:
 - Societal Metabolism
 - Nexus WEFL
@@ -28,13 +28,15 @@ url_slides: ""
 url_video: ""
 ---
 
+This project was part of my doctoral thesis: [Societal metabolism focused on water management : application of the MuSIASEM tool in Yucatán Península, México](https://www.tdx.cat/handle/10803/669626#page=4)
+
 The main objectives of this project are:
 
-(1)	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.
+1.	Diagnose water consumption based on the metabolic pattern existing in the socio-economic system of the Yucatan Peninsula, Mexico; providing integrated information on the flows of water consumption at different productive and domestic levels.
 
-(2)	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.
+2.	Generate a tool based on the Multi-Scale Integrated Analysis of Societal and Ecosystem Metabolism (MuSIASEM) methodology that allows simulating different future scenarios to verify its viability and convenience in relation to the consumption of water resources with the limits established by the ecosystem.
 
-(3)	Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.
+3.	Create geo-referenced data on the effect of climate change in the region, which will help in the decision-making process on the definition of development plans at the regional level.
 
 From the WMR it is possible to know how compatible the growth is expected for the region with sustainable water management. In other words, if the appropriation of water prevents the structures of the eco-systemic services from being maintained (within the biophysical limits of the recharge without affecting the natural discharge), then the social metabolic pattern will not be feasible in the long term; so, it will not be sustainable
 

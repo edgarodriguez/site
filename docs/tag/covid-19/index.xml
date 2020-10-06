@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 | [ Sustainability &#43; Data ] · Science</title>
+    <link>/tag/covid-19/</link>
+      <atom:link href="/tag/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <description>COVID-19</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo-edgarodriguez.png</url>
+      <title>COVID-19</title>
+      <link>/tag/covid-19/</link>
+    </image>
+    
+    <item>
+      <title>Mobility in Mexico after COVID-19</title>
+      <link>/post/covid-19-mx-mobility/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19-mx-mobility/</guid>
+      <description>&lt;p&gt;Mobility has changed due to COVID-19. In Mexico, it decreased significantly in mid-March 9, but just a month later we observed a gradual recovery, especially in trips to workplaces.
+In September 2020, mobility to workplaces has remained stable with -24%. However, mobility to parks and shopping centers increased 30% compared to last month, reaching the levels of March 2020. The increase in mobility may indicate a second significant wave and before the end of the first.&lt;/p&gt;
+&lt;p&gt;What is the relationship between mobility and the contagion rate in each region?
+Why do states with the greatest reduction in mobility have high numbers of infections?&lt;/p&gt;
+&lt;p&gt;In general, all trips have decreased compared to the beginning of the year, but on weekends the reduction is less. What accounts for this difference?&lt;/p&gt;
+&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1601926821548&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39; &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;An&amp;#47;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;site_root&#39; value=&#39;&#39; /&gt;&lt;param name=&#39;name&#39; value=&#39;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&#39; /&gt;&lt;param name=&#39;tabs&#39; value=&#39;no&#39; /&gt;&lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;An&amp;#47;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1601926821548&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    if ( divElement.offsetWidth &gt; 800 ) { vizElement.style.width=&#39;1196px&#39;;vizElement.style.height=&#39;751px&#39;;} else if ( divElement.offsetWidth &gt; 500 ) { vizElement.style.width=&#39;1196px&#39;;vizElement.style.height=&#39;751px&#39;;} else { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=&#39;1227px&#39;;}                     var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COVID-19 in Mexico: Relationship among urban characteristics and contagious/death rates</title>
+      <link>/project/covid-19-mx/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/covid-19-mx/</guid>
+      <description>&lt;p&gt;In Mexico, we only talk about personal characteristics (age, obesity, etc.), 
+I am convinced that the urban environment as (quality of public services) has significant relevance.
+The aim of this project is to identify what urban characteristics affect the number of infections and deaths from COVID-19. Also, we are comparing official data and other sources to measure the real impact of COVID-19 in the mortality rate.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

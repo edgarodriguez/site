@@ -28,7 +28,7 @@
 #  weight = 50
   
 [[main]]
-  name = "About"
+  name = "About me"
   url = "#about"
   weight = 60
   
