@@ -40,8 +40,8 @@ height = ""
 #  cta_icon = "graduation-cap"
 
 [[item]]
-  title = "Welcome"
-  content = "Ideas & projects to raise resilience to climate change"
+  title = "Exploring Sustainability to raise resilience in communities"
+  content = ""
   align = "center"
 
   overlay_color = "#363636"  # An HTML color value.

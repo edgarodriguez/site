@@ -10,7 +10,7 @@ draft: false
 featured: false
 diagram: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Image credit: [**Unsplash: Gabriel Manlake**](https://unsplash.com/photos/xMCsc8pnRb0)'
   focal_point: ""
   placement: 2
   preview_only: false

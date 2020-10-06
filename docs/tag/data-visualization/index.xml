@@ -5,12 +5,30 @@
     <link>/tag/data-visualization/</link>
       <atom:link href="/tag/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <description>Data visualization</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo-edgarodriguez.png</url>
       <title>Data visualization</title>
       <link>/tag/data-visualization/</link>
     </image>
+    
+    <item>
+      <title>COVID-19 effect in mortality rates in Mexico</title>
+      <link>/post/covid-19-mx-deaths/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19-mx-deaths/</guid>
+      <description>&lt;p&gt;What is the effect of &lt;strong&gt;COVID-19&lt;/strong&gt; on the death rate in &lt;strong&gt;Mexico&lt;/strong&gt;? 
+Is it true that deaths are classified with different causes to avoid an increase the number of cases?
+I analyzed the information from the Epidemiological and Statistical System of Deaths (SEED) from 1998 to September 2020 to determine the increase in the mortality rate vs. the historical data.
+Although there are several States with important delays in updating information &lt;em&gt;(especially: OAXACA, MICHOACÁN, GUERRERO, PUEBLA, JALISCO)&lt;/em&gt;, in June 2020 the rate increased to almost 70 deaths per 100,000 inhabitants (30%). &lt;strong&gt;Mexico City&lt;/strong&gt; almost tripled its rate (160 deaths per 100,000 inhabitants) compared to the same period, which represented that 1 of each 4 deaths in Mexico City is due to COVID-19. Until June 30, 2020[^fn1], COVID-19 caused 11% of total deaths in Mexico.&lt;/p&gt;
+&lt;p&gt;Around 2,300 deaths were detected with causes related to COVID-19, classified with another cause, mainly &lt;strong&gt;J129 &amp;lsquo;Viral Pneumonia, Unspecified&amp;rsquo;&lt;/strong&gt; with around 300 more cases compared to the previous year.&lt;/p&gt;
+&lt;p&gt;[^fn1] It was defined until June 2020 due to the delay in the SEED data.&lt;/p&gt;
+&lt;p&gt;If you want to see the complete analysis, and how each State goes, 
+&lt;a href=&#34;https://public.tableau.com/views/DefuncionesCOVID19-Mexico/EfectoCOVID?:language=en&amp;amp;:display_count=y&amp;amp;:origin=viz_share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here is the interactive (in Spanish)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./figure1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
@@ -137,23 +155,6 @@ my_plot&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>COVID-19 effect in mortality rates in Mexico</title>
-      <link>/post/covid-19-mx-deaths/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-19-mx-deaths/</guid>
-      <description>&lt;p&gt;What is the effect of &lt;strong&gt;COVID-19&lt;/strong&gt; on the death rate in &lt;strong&gt;Mexico&lt;/strong&gt;? 
-Is it true that deaths are classified with different causes to avoid an increase the number of cases?
-I analyzed the information from the Epidemiological and Statistical System of Deaths (SEED) from 1998 to September 2020 to determine the increase in the mortality rate vs. the historical data.
-Although there are several States with important delays in updating information &lt;em&gt;(especially: OAXACA, MICHOACÁN, GUERRERO, PUEBLA, JALISCO)&lt;/em&gt;, in June 2020 the rate increased to almost 70 deaths per 100,000 inhabitants (30%). &lt;strong&gt;Mexico City&lt;/strong&gt; almost tripled its rate (160 deaths per 100,000 inhabitants) compared to the same period, which represented that 1 of each 4 deaths in Mexico City is due to COVID-19. Until June 30, 2020[^fn1], COVID-19 caused 11% of total deaths in Mexico.&lt;/p&gt;
-&lt;p&gt;Around 2,300 deaths were detected with causes related to COVID-19, classified with another cause, mainly &lt;strong&gt;J129 &amp;lsquo;Viral Pneumonia, Unspecified&amp;rsquo;&lt;/strong&gt; with around 300 more cases compared to the previous year.&lt;/p&gt;
-&lt;p&gt;[^fn1] It was defined until June 2020 due to the delay in the SEED data.&lt;/p&gt;
-&lt;p&gt;If you want to see the complete analysis, and how each State goes, here is the interactive (in Spanish).&lt;/p&gt;
-&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1602005902454&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39; &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;De&amp;#47;DefuncionesCOVID19-Mexico&amp;#47;EfectoCOVID&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;site_root&#39; value=&#39;&#39; /&gt;&lt;param name=&#39;name&#39; value=&#39;DefuncionesCOVID19-Mexico&amp;#47;EfectoCOVID&#39; /&gt;&lt;param name=&#39;tabs&#39; value=&#39;no&#39; /&gt;&lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;De&amp;#47;DefuncionesCOVID19-Mexico&amp;#47;EfectoCOVID&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1602005902454&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    if ( divElement.offsetWidth &gt; 800 ) { vizElement.style.width=&#39;1366px&#39;;vizElement.style.height=&#39;795px&#39;;} else if ( divElement.offsetWidth &gt; 500 ) { vizElement.style.width=&#39;1366px&#39;;vizElement.style.height=&#39;795px&#39;;} else { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=&#39;1577px&#39;;}                     var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
-&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Mobility in Mexico after COVID-19</title>
       <link>/post/covid-19-mx-mobility/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
@@ -163,7 +164,9 @@ In September 2020, mobility to workplaces has remained stable with -24%. However
 &lt;p&gt;What is the relationship between mobility and the contagion rate in each region?
 Why do states with the greatest reduction in mobility have high numbers of infections?&lt;/p&gt;
 &lt;p&gt;In general, all trips have decreased compared to the beginning of the year, but on weekends the reduction is less. What accounts for this difference?&lt;/p&gt;
-&lt;div class=&#39;tableauPlaceholder&#39; id=&#39;viz1601926821548&#39; style=&#39;position: relative&#39;&gt;&lt;noscript&gt;&lt;a href=&#39;#&#39;&gt;&lt;img alt=&#39; &#39; src=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;An&amp;#47;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&amp;#47;1_rss.png&#39; style=&#39;border: none&#39; /&gt;&lt;/a&gt;&lt;/noscript&gt;&lt;object class=&#39;tableauViz&#39;  style=&#39;display:none;&#39;&gt;&lt;param name=&#39;host_url&#39; value=&#39;https%3A%2F%2Fpublic.tableau.com%2F&#39; /&gt; &lt;param name=&#39;embed_code_version&#39; value=&#39;3&#39; /&gt; &lt;param name=&#39;site_root&#39; value=&#39;&#39; /&gt;&lt;param name=&#39;name&#39; value=&#39;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&#39; /&gt;&lt;param name=&#39;tabs&#39; value=&#39;no&#39; /&gt;&lt;param name=&#39;toolbar&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;static_image&#39; value=&#39;https:&amp;#47;&amp;#47;public.tableau.com&amp;#47;static&amp;#47;images&amp;#47;An&amp;#47;AnlisisdemovilidadMxico&amp;#47;MovilidadMxico&amp;#47;1.png&#39; /&gt; &lt;param name=&#39;animate_transition&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_static_image&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_spinner&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_overlay&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;display_count&#39; value=&#39;yes&#39; /&gt;&lt;param name=&#39;language&#39; value=&#39;en&#39; /&gt;&lt;/object&gt;&lt;/div&gt;                &lt;script type=&#39;text/javascript&#39;&gt;                    var divElement = document.getElementById(&#39;viz1601926821548&#39;);                    var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0];                    if ( divElement.offsetWidth &gt; 800 ) { vizElement.style.width=&#39;1196px&#39;;vizElement.style.height=&#39;751px&#39;;} else if ( divElement.offsetWidth &gt; 500 ) { vizElement.style.width=&#39;1196px&#39;;vizElement.style.height=&#39;751px&#39;;} else { vizElement.style.width=&#39;100%&#39;;vizElement.style.height=&#39;1227px&#39;;}                     var scriptElement = document.createElement(&#39;script&#39;);                    scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;;                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                &lt;/script&gt;
+&lt;p&gt;If you want to see the complete analysis, and how each State goes, 
+&lt;a href=&#34;https://public.tableau.com/views/AnlisisdemovilidadMxico/MovilidadMxico?:language=en&amp;amp;:display_count=y&amp;amp;:origin=viz_share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here is the interactive (in Spanish)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./figure1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
 </description>
     </item>

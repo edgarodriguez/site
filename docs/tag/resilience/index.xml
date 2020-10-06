@@ -18,7 +18,7 @@
       <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/project/resilience-with-r/</guid>
       <description>&lt;p&gt;The main objectives of this project are:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Create a repository of different open-source data analysis tools (with R) to understand the resilience and complexity around it. Including datasets, case studies and work papers.&lt;/p&gt;
 &lt;/li&gt;
@@ -28,7 +28,7 @@
 &lt;li&gt;
 &lt;p&gt;Identify research groups thought a bibliographic network to encourage a multi-discipliary collaboration.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

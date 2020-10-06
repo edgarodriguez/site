@@ -30,6 +30,24 @@ A remarkable way of how spatial analysis creates solutions for the well-being of
     </item>
     
     <item>
+      <title>COVID-19 effect in mortality rates in Mexico</title>
+      <link>/post/covid-19-mx-deaths/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-19-mx-deaths/</guid>
+      <description>&lt;p&gt;What is the effect of &lt;strong&gt;COVID-19&lt;/strong&gt; on the death rate in &lt;strong&gt;Mexico&lt;/strong&gt;? 
+Is it true that deaths are classified with different causes to avoid an increase the number of cases?
+I analyzed the information from the Epidemiological and Statistical System of Deaths (SEED) from 1998 to September 2020 to determine the increase in the mortality rate vs. the historical data.
+Although there are several States with important delays in updating information &lt;em&gt;(especially: OAXACA, MICHOACÁN, GUERRERO, PUEBLA, JALISCO)&lt;/em&gt;, in June 2020 the rate increased to almost 70 deaths per 100,000 inhabitants (30%). &lt;strong&gt;Mexico City&lt;/strong&gt; almost tripled its rate (160 deaths per 100,000 inhabitants) compared to the same period, which represented that 1 of each 4 deaths in Mexico City is due to COVID-19. Until June 30, 2020[^fn1], COVID-19 caused 11% of total deaths in Mexico.&lt;/p&gt;
+&lt;p&gt;Around 2,300 deaths were detected with causes related to COVID-19, classified with another cause, mainly &lt;strong&gt;J129 &amp;lsquo;Viral Pneumonia, Unspecified&amp;rsquo;&lt;/strong&gt; with around 300 more cases compared to the previous year.&lt;/p&gt;
+&lt;p&gt;[^fn1] It was defined until June 2020 due to the delay in the SEED data.&lt;/p&gt;
+&lt;p&gt;If you want to see the complete analysis, and how each State goes, 
+&lt;a href=&#34;https://public.tableau.com/views/DefuncionesCOVID19-Mexico/EfectoCOVID?:language=en&amp;amp;:display_count=y&amp;amp;:origin=viz_share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here is the interactive (in Spanish)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./figure1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Creating maps with Leaflet Package and Rmd</title>
       <link>/post/coursera-leaflet/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>

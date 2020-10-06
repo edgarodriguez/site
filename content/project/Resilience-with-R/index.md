@@ -30,8 +30,8 @@ url_video: ""
 ---
 
 The main objectives of this project are:
-- Create a repository of different open-source data analysis tools (with R) to understand the resilience and complexity around it. Including datasets, case studies and work papers.
+1. Create a repository of different open-source data analysis tools (with R) to understand the resilience and complexity around it. Including datasets, case studies and work papers.
 
-- Recognize popular methods, and create an environment to generate reproducible research.
+2. Recognize popular methods, and create an environment to generate reproducible research.
 
-- Identify research groups thought a bibliographic network to encourage a multi-discipliary collaboration. 
+3. Identify research groups thought a bibliographic network to encourage a multi-discipliary collaboration. 

@@ -74,7 +74,7 @@
   
   <url>
     <loc>/category/data-science/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,6 +108,26 @@
   </url>
   
   <url>
+    <loc>/tag/covid-19/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/covid-19-mx-deaths/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/data-visualization/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tableau/</loc>
+    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/coursera-leaflet/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
   </url>
@@ -115,11 +135,6 @@
   <url>
     <loc>/post/coursera-plotly/</loc>
     <lastmod>2020-09-01T16:00:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/data-visualization/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -153,13 +168,13 @@
   </url>
   
   <url>
-    <loc>/post/synecology/</loc>
+    <loc>/work-progress/synecology/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/covid-19/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+    <loc>/work-progress/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -190,16 +205,6 @@
   <url>
     <loc>/tag/sustainability/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/covid-19-mx-deaths/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/tableau/</loc>
-    <lastmod>2020-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -389,11 +394,6 @@
   
   <url>
     <loc>/work-progress/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/work-progress/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
