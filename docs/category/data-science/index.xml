@@ -89,5 +89,18 @@ my_map %&amp;gt;%
 </description>
     </item>
     
+    <item>
+      <title>Data cleaning with Tableau Prep</title>
+      <link>/post/tableau-prep/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/tableau-prep/</guid>
+      <description>&lt;p&gt;Data preparation tools create dynamic and reproducible data flow diagrams at multiple scales, helping to reduce work times. In my case, I cut my time in half. 
+This is a diagram that I generated with 
+&lt;a href=&#34;https://www.tableau.com/products/prep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Tableau Prep&lt;/strong&gt;&lt;/a&gt; in July 2020 to process data on historical deaths in Mexico, and the effect that COVID-19 has had on other causes of deaths. 
+Data flow diagrams create a dynamic and easy-to-use experience that reduce worktime and encourage to reproducible research.&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-interesting-consider-sharing-it-&#34;&gt;Did you find this page interesting? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

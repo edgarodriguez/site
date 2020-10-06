@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>COVID-19 | [ Sustainability &#43; Data ] · Science</title>
-    <link>/tag/covid-19/</link>
-      <atom:link href="/tag/covid-19/index.xml" rel="self" type="application/rss+xml" />
-    <description>COVID-19</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <title>Tableau | [ Sustainability &#43; Data ] · Science</title>
+    <link>/tag/tableau/</link>
+      <atom:link href="/tag/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tableau</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Edgar Rodríguez-Huerta</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo-edgarodriguez.png</url>
-      <title>COVID-19</title>
-      <link>/tag/covid-19/</link>
+      <title>Tableau</title>
+      <link>/tag/tableau/</link>
     </image>
-    
-    <item>
-      <title>COVID-19 in Mexico: Relationship among urban characteristics and contagious/death rates</title>
-      <link>/project/covid-19-mx/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/covid-19-mx/</guid>
-      <description>&lt;p&gt;In Mexico, we only talk about personal characteristics (age, obesity, etc.), 
-I am convinced that the urban environment as (quality of public services) has significant relevance.
-The aim of this project is to identify what urban characteristics affect the number of infections and deaths from COVID-19. Also, we are comparing official data and other sources to measure the real impact of COVID-19 in the mortality rate.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>COVID-19 effect in mortality rates in Mexico</title>

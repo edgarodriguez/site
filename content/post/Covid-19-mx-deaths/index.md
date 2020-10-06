@@ -25,9 +25,9 @@ tags:
 # url_poster: ""
 
 math: true
-title: "COVID-19 effect in mortality rates in Mexico"
+title: 'COVID-19 effect in mortality rates in Mexico'
 subtitle: 'Relationship among other death causes'
-summary: 'Exploratory analysis of death rates in Mexico 2020 (Update to September 2020).
+summary: 'Exploratory analysis of death rates in Mexico 2020 (Update to September 2020).'
 
 
 ---
