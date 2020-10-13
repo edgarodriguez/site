@@ -19,14 +19,24 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Coursera. Johns Hopkins University"
+  organization_url = "https://www.coursera.org"
+  title = "Specialization: Data Science"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/certificate/QPKY8YU3XKRZ"
+  date_start = "2020-04-01"
+  date_end = "2020-10-12"
+  description = "This Specialization covers the concepts and tools you'll need throughout the entire data science pipeline, from asking the right kinds of questions to making inferences and publishing results. In the final Capstone Project, you’ll apply the skills learned by building a data product using real-world data. At completion, students will have a portfolio demonstrating their mastery of the material."
+
+[[item]]
   organization = "Coursera. Michigan University"
   organization_url = "https://www.coursera.org"
-  title = "Spatial Data Science and Applications"
+  title = "Specialization: Python for everybody"
   url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/KWT4J43KF93W"
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/certificate/C5DG8PBJWXWF"
   date_start = "2020-09-01"
-  date_end = "2020-09-10"
-  description = "This course defines spatial data science and answer why spatial is special from three different perspectives - business, technology, and data in the first week. It includes four disciplines related to spatial data science - GIS, DBMS, Data Analytics, and Big Data Systems, and the related open source software's - QGIS, PostgreSQL, PostGIS, R, and Hadoop tools."
+  date_end = "2020-09-18"
+  description = "This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language. In the Capstone Project, you’ll use the technologies learned throughout the Specialization to design and create your own applications for data retrieval, processing, and visualization."
 
 [[item]]
   organization = "Coursera. Yonsei University"
@@ -37,18 +47,6 @@ date_format = "Jan 2006"
   date_start = "2020-09-01"
   date_end = "2020-09-10"
   description = "This course defines spatial data science and answer why spatial is special from three different perspectives - business, technology, and data in the first week. It includes four disciplines related to spatial data science - GIS, DBMS, Data Analytics, and Big Data Systems, and the related open source software's - QGIS, PostgreSQL, PostGIS, R, and Hadoop tools."
-
-
-[[item]]
-  organization = "Coursera. Johns Hopkins University"
-  organization_url = "https://www.coursera.org"
-  title = "Specialization in Data Science"
-  url = ""
-  certificate_url = ""
-  date_start = "2020-05-01"
-  date_end = "2020-09-01"
-  description = "Specialiation covers the concepts and tools you'll need throughout the entire data science pipeline, from asking the right kinds of questions to making inferences and publishing results."
-
 
 [[item]]
   organization = "Coursera. Universitat Autónoma de Barcelona"
